@@ -4,13 +4,45 @@
 <meta charset="utf-8">
 <title>Salt Nightlies</title>
 <style>
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2em; color: #555; text-align: center; padding-top: 5em; }
-  h1 { font-size: 1.5em; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2em; color: #222; }
+  h1 { font-size: 1.5em; margin-bottom: 0.3em; }
+  .subhead { color: #666; font-size: 0.9em; margin-bottom: 1.5em; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.9em; }
+  th, td { padding: 0.4em 0.6em; text-align: left; border-bottom: 1px solid #eee; }
+  th { background: #f6f8fa; font-weight: 600; }
+  tr.row { cursor: pointer; }
+  tr.row:hover { background: #f9fafb; }
+  tr.row.ok .status { color: #1a7f37; font-weight: 600; }
+  tr.row.fail .status { color: #cf222e; font-weight: 600; }
+  tr.row.pending .status { color: #9a6700; }
+  .pill { display: inline-block; padding: 1px 6px; margin-right: 3px; background: #eaeef2; border-radius: 8px; font-size: 0.8em; font-family: monospace; }
+  .pills { min-width: 200px; }
+  code { font-size: 0.85em; background: #f6f8fa; padding: 1px 4px; border-radius: 3px; }
+  a { color: #0969da; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .detail { margin: 0.5em 0 0.5em 1em; width: auto; font-size: 0.85em; }
+  .detail th, .detail td { border-bottom: 1px solid #f0f0f0; }
 </style>
+<script>
+  function toggle(id) {
+    var el = document.getElementById(id);
+    el.style.display = el.style.display === 'none' ? 'table-row' : 'none';
+  }
+</script>
 </head>
 <body>
 <h1>Salt Nightlies</h1>
-<p>Dashboard will populate on the first successful nightly publish.</p>
-<p><a href="https://github.com/saltstack/salt-nightlies/releases">See recent releases →</a></p>
+<div class="subhead">Recent nightly builds. Click a row to expand suite × OS breakdown. Updated 2026-08-15T03:03:22+00:00.</div>
+<table>
+<thead>
+<tr>
+  <th>date</th><th>branch</th><th>salt version</th><th>status</th>
+  <th>tests</th><th>fail+err</th><th>by suite</th><th>links</th>
+</tr>
+</thead>
+<tbody>
+<tr class="row ok" onclick="toggle('d0')"><td>2026-08-15</td><td>3008.x</td><td><code>unknown</code></td><td class="status">success</td><td>338,473</td><td>57</td><td class="pills"><span class="pill" title="functional: 55330 tests, 27 fail, 0 err">F:55330</span> <span class="pill" title="integration: 78774 tests, 10 fail, 0 err">I:78774</span> <span class="pill" title="scenarios: 1714 tests, 20 fail, 0 err">S:1714</span> <span class="pill" title="unit: 202655 tests, 0 fail, 0 err">U:202655</span></td><td><a href="https://github.com/saltstack/salt-nightlies/releases/tag/nightly-2026-08-15-3008.x" onclick="event.stopPropagation()">release</a> · <a href="https://github.com/saltstack/salt-nightlies/actions/runs/31853110402" onclick="event.stopPropagation()">run</a></td></tr><tr id="d0" class="detail-row" style="display:none"><td colspan="8"><table class="detail"><thead><tr><th>suite</th><th>os</th><th>tests</th><th>fail</th><th>err</th><th>skip</th></tr></thead><tbody><tr><td>functional</td><td>amazonlinux-2</td><td>3611</td><td>1</td><td>0</td><td>1217</td></tr><tr><td>functional</td><td>amazonlinux-2023-arm64</td><td>3611</td><td>1</td><td>0</td><td>1198</td></tr><tr><td>functional</td><td>debian-11</td><td>4230</td><td>1</td><td>0</td><td>911</td></tr><tr><td>functional</td><td>debian-12-arm64</td><td>3633</td><td>1</td><td>0</td><td>1164</td></tr><tr><td>functional</td><td>debian-13</td><td>3632</td><td>1</td><td>0</td><td>1179</td></tr><tr><td>functional</td><td>fedora-40</td><td>3608</td><td>1</td><td>0</td><td>1195</td></tr><tr><td>functional</td><td>macos-15</td><td>144</td><td>0</td><td>0</td><td>54</td></tr><tr><td>functional</td><td>macos-15-intel</td><td>144</td><td>0</td><td>0</td><td>53</td></tr><tr><td>functional</td><td>photonos-4</td><td>3610</td><td>0</td><td>0</td><td>1779</td></tr><tr><td>functional</td><td>photonos-4-arm64</td><td>3611</td><td>1</td><td>0</td><td>1216</td></tr><tr><td>functional</td><td>photonos-5</td><td>3611</td><td>1</td><td>0</td><td>1216</td></tr><tr><td>functional</td><td>photonos-5-arm64</td><td>3610</td><td>0</td><td>0</td><td>1779</td></tr><tr><td>functional</td><td>rockylinux-8-arm64</td><td>3614</td><td>1</td><td>0</td><td>1210</td></tr><tr><td>functional</td><td>rockylinux-9</td><td>3611</td><td>1</td><td>0</td><td>1193</td></tr><tr><td>functional</td><td>ubuntu-22.04-arm64</td><td>3642</td><td>8</td><td>0</td><td>1157</td></tr><tr><td>functional</td><td>ubuntu-24.04</td><td>3641</td><td>8</td><td>0</td><td>1176</td></tr><tr><td>functional</td><td>windows-2022</td><td>1883</td><td>0</td><td>0</td><td>451</td></tr><tr><td>functional</td><td>windows-2025</td><td>1884</td><td>1</td><td>0</td><td>451</td></tr><tr><td>integration</td><td>amazonlinux-2</td><td>4249</td><td>1</td><td>0</td><td>939</td></tr><tr><td>integration</td><td>amazonlinux-2023-arm64</td><td>4242</td><td>0</td><td>0</td><td>940</td></tr><tr><td>integration</td><td>debian-11</td><td>4242</td><td>0</td><td>0</td><td>904</td></tr><tr><td>integration</td><td>debian-12-arm64</td><td>4243</td><td>1</td><td>0</td><td>471</td></tr><tr><td>integration</td><td>debian-13</td><td>4242</td><td>0</td><td>0</td><td>916</td></tr><tr><td>integration</td><td>fedora-40</td><td>4242</td><td>0</td><td>0</td><td>940</td></tr><tr><td>integration</td><td>macos-15</td><td>13</td><td>0</td><td>0</td><td>10</td></tr><tr><td>integration</td><td>macos-15-intel</td><td>13</td><td>0</td><td>0</td><td>10</td></tr><tr><td>integration</td><td>photonos-4</td><td>4243</td><td>1</td><td>0</td><td>542</td></tr><tr><td>integration</td><td>photonos-4-arm64</td><td>4243</td><td>1</td><td>0</td><td>510</td></tr><tr><td>integration</td><td>photonos-5</td><td>8486</td><td>2</td><td>0</td><td>1014</td></tr><tr><td>integration</td><td>photonos-5-arm64</td><td>8486</td><td>2</td><td>0</td><td>1082</td></tr><tr><td>integration</td><td>rockylinux-8-arm64</td><td>4242</td><td>0</td><td>0</td><td>936</td></tr><tr><td>integration</td><td>rockylinux-9</td><td>8484</td><td>0</td><td>0</td><td>1870</td></tr><tr><td>integration</td><td>ubuntu-22.04-arm64</td><td>8486</td><td>2</td><td>0</td><td>948</td></tr><tr><td>integration</td><td>ubuntu-24.04</td><td>4242</td><td>0</td><td>0</td><td>938</td></tr><tr><td>integration</td><td>windows-2022</td><td>1188</td><td>0</td><td>0</td><td>736</td></tr><tr><td>integration</td><td>windows-2025</td><td>1188</td><td>0</td><td>0</td><td>736</td></tr><tr><td>scenarios</td><td>amazonlinux-2</td><td>93</td><td>1</td><td>0</td><td>26</td></tr><tr><td>scenarios</td><td>amazonlinux-2023-arm64</td><td>93</td><td>1</td><td>0</td><td>26</td></tr><tr><td>scenarios</td><td>debian-11</td><td>93</td><td>1</td><td>0</td><td>26</td></tr><tr><td>scenarios</td><td>debian-12-arm64</td><td>93</td><td>1</td><td>0</td><td>26</td></tr><tr><td>scenarios</td><td>debian-13</td><td>93</td><td>1</td><td>0</td><td>26</td></tr><tr><td>scenarios</td><td>fedora-40</td><td>93</td><td>1</td><td>0</td><td>26</td></tr><tr><td>scenarios</td><td>photonos-4</td><td>93</td><td>1</td><td>0</td><td>29</td></tr><tr><td>scenarios</td><td>photonos-4-arm64</td><td>93</td><td>1</td><td>0</td><td>26</td></tr><tr><td>scenarios</td><td>photonos-5</td><td>186</td><td>2</td><td>0</td><td>52</td></tr><tr><td>scenarios</td><td>photonos-5-arm64</td><td>186</td><td>2</td><td>0</td><td>58</td></tr><tr><td>scenarios</td><td>rockylinux-8-arm64</td><td>93</td><td>1</td><td>0</td><td>26</td></tr><tr><td>scenarios</td><td>rockylinux-9</td><td>186</td><td>2</td><td>0</td><td>52</td></tr><tr><td>scenarios</td><td>ubuntu-22.04-arm64</td><td>186</td><td>2</td><td>0</td><td>52</td></tr><tr><td>scenarios</td><td>ubuntu-24.04</td><td>93</td><td>1</td><td>0</td><td>26</td></tr><tr><td>scenarios</td><td>windows-2022</td><td>20</td><td>1</td><td>0</td><td>15</td></tr><tr><td>scenarios</td><td>windows-2025</td><td>20</td><td>1</td><td>0</td><td>15</td></tr><tr><td>unit</td><td>amazonlinux-2</td><td>14004</td><td>0</td><td>0</td><td>2049</td></tr><tr><td>unit</td><td>amazonlinux-2023-arm64</td><td>14009</td><td>0</td><td>0</td><td>2041</td></tr><tr><td>unit</td><td>debian-11</td><td>14004</td><td>0</td><td>0</td><td>2051</td></tr><tr><td>unit</td><td>debian-12-arm64</td><td>14009</td><td>0</td><td>0</td><td>2045</td></tr><tr><td>unit</td><td>debian-13</td><td>14009</td><td>0</td><td>0</td><td>2045</td></tr><tr><td>unit</td><td>fedora-40</td><td>14009</td><td>0</td><td>0</td><td>2041</td></tr><tr><td>unit</td><td>macos-15</td><td>585</td><td>0</td><td>0</td><td>105</td></tr><tr><td>unit</td><td>macos-15-intel</td><td>585</td><td>0</td><td>0</td><td>105</td></tr><tr><td>unit</td><td>photonos-4</td><td>14004</td><td>0</td><td>0</td><td>2112</td></tr><tr><td>unit</td><td>photonos-4-arm64</td><td>14004</td><td>0</td><td>0</td><td>2048</td></tr><tr><td>unit</td><td>photonos-5</td><td>14009</td><td>0</td><td>0</td><td>2044</td></tr><tr><td>unit</td><td>photonos-5-arm64</td><td>14009</td><td>0</td><td>0</td><td>2108</td></tr><tr><td>unit</td><td>rockylinux-8-arm64</td><td>14004</td><td>0</td><td>0</td><td>2048</td></tr><tr><td>unit</td><td>rockylinux-9</td><td>14009</td><td>0</td><td>0</td><td>2041</td></tr><tr><td>unit</td><td>ubuntu-22.04-arm64</td><td>14009</td><td>0</td><td>0</td><td>2042</td></tr><tr><td>unit</td><td>ubuntu-24.04</td><td>14009</td><td>0</td><td>0</td><td>2042</td></tr><tr><td>unit</td><td>windows-2022</td><td>2692</td><td>0</td><td>0</td><td>674</td></tr><tr><td>unit</td><td>windows-2025</td><td>2692</td><td>0</td><td>0</td><td>674</td></tr></tbody></table></td></tr>
+</tbody>
+</table>
 </body>
 </html>
