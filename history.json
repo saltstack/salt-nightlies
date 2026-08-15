@@ -5,16 +5,16 @@
     "tag": "nightly-2026-08-15-3008.x",
     "commit": "bc6d557fcb5da9b15937a534a0d9b4a0e93230e6",
     "salt_version": "unknown",
-    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/31853110402",
+    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/31852300826",
     "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/nightly-2026-08-15-3008.x",
     "overall_status": "success",
-    "artifact_count": 49,
+    "artifact_count": 51,
     "test_counts": {
       "totals": {
         "tests": 338473,
         "failures": 57,
         "errors": 0,
-        "skipped": 63863
+        "skipped": 63864
       },
       "by_suite_os": {
         "functional|amazonlinux-2": {
@@ -45,7 +45,7 @@
           "tests": 3632,
           "failures": 1,
           "errors": 0,
-          "skipped": 1179
+          "skipped": 1180
         },
         "functional|fedora-40": {
           "tests": 3608,
@@ -120,14 +120,14 @@
           "skipped": 451
         },
         "functional|windows-2025": {
-          "tests": 1884,
-          "failures": 1,
+          "tests": 1883,
+          "failures": 0,
           "errors": 0,
           "skipped": 451
         },
         "integration|amazonlinux-2": {
-          "tests": 4249,
-          "failures": 1,
+          "tests": 4248,
+          "failures": 0,
           "errors": 0,
           "skipped": 939
         },
@@ -282,8 +282,8 @@
           "skipped": 26
         },
         "scenarios|photonos-5": {
-          "tests": 186,
-          "failures": 2,
+          "tests": 188,
+          "failures": 4,
           "errors": 0,
           "skipped": 52
         },
