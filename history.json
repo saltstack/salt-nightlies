@@ -11,11 +11,11 @@
     "artifact_count": 51,
     "test_counts": {
       "totals": {
-        "tests": 232865,
-        "failed": 1,
-        "flaky": 64,
-        "skipped": 63836,
-        "passed": 232800,
+        "tests": 232861,
+        "failed": 0,
+        "flaky": 63,
+        "skipped": 63821,
+        "passed": 232798,
         "unique": 18183
       },
       "by_suite_os": {
@@ -377,11 +377,11 @@
           "passed": 3
         },
         "scenarios|windows-2025": {
-          "tests": 8,
-          "failed": 1,
-          "flaky": 2,
-          "skipped": 30,
-          "passed": 5
+          "tests": 4,
+          "failed": 0,
+          "flaky": 1,
+          "skipped": 15,
+          "passed": 3
         },
         "unit|amazonlinux-2": {
           "tests": 11854,
@@ -524,11 +524,11 @@
     "artifact_count": 17,
     "test_counts": {
       "totals": {
-        "tests": 250661,
-        "failed": 1,
+        "tests": 247094,
+        "failed": 0,
         "flaky": 166,
-        "skipped": 66498,
-        "passed": 250494,
+        "skipped": 66040,
+        "passed": 246928,
         "unique": 19395
       },
       "by_suite_os": {
@@ -953,11 +953,11 @@
           "passed": 391
         },
         "unit|photonos-4": {
-          "tests": 16808,
-          "failed": 1,
+          "tests": 13241,
+          "failed": 0,
           "flaky": 4,
-          "skipped": 3320,
-          "passed": 16803
+          "skipped": 2862,
+          "passed": 13237
         },
         "unit|photonos-4-arm64": {
           "tests": 13846,
