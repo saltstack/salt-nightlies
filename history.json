@@ -1104,6 +1104,99 @@
     }
   },
   {
+    "date": "2026-11-05",
+    "branch": "3007.x",
+    "tag": "v3007.17+7.gcc70c47c86",
+    "commit": "cc70c47c860259d93a16f3fb7c00eafdbc0ef6a3",
+    "salt_version": "3007.17+7.gcc70c47c86",
+    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/41941796213",
+    "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/v3007.17+7.gcc70c47c86",
+    "overall_status": "success",
+    "artifact_count": 56,
+    "test_counts": {
+      "totals": {
+        "tests": 9669,
+        "failed": 0,
+        "flaky": 8,
+        "skipped": 1908,
+        "passed": 9661,
+        "unique": 4986
+      },
+      "by_suite_os": {
+        "functional|macos-15-intel": {
+          "tests": 42,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 26,
+          "passed": 42
+        },
+        "functional|windows-2025": {
+          "tests": 310,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 163,
+          "passed": 310
+        },
+        "integration|amazonlinux-2023-arm64": {
+          "tests": 259,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 334,
+          "passed": 259
+        },
+        "integration|macos-15": {
+          "tests": 1,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 6,
+          "passed": 1
+        },
+        "unit|amazonlinux-2": {
+          "tests": 3973,
+          "failed": 0,
+          "flaky": 4,
+          "skipped": 322,
+          "passed": 3969
+        },
+        "unit|macos-15": {
+          "tests": 315,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 72,
+          "passed": 315
+        },
+        "unit|macos-15-intel": {
+          "tests": 76,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 53,
+          "passed": 76
+        },
+        "unit|rockylinux-8-arm64": {
+          "tests": 3973,
+          "failed": 0,
+          "flaky": 4,
+          "skipped": 322,
+          "passed": 3969
+        },
+        "unit|windows-2022": {
+          "tests": 360,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 305,
+          "passed": 360
+        },
+        "unit|windows-2025": {
+          "tests": 360,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 305,
+          "passed": 360
+        }
+      }
+    }
+  },
+  {
     "date": "2026-11-04",
     "branch": "3008.x",
     "tag": "v3008.3+193.gc9b612013b",
