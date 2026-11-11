@@ -1,5 +1,70 @@
 [
   {
+    "date": "2026-11-11",
+    "branch": "3007.x",
+    "tag": "v3007.17+2.g255e983457",
+    "commit": "255e983457273613db9e1209f2fcb002a32fbe7a",
+    "salt_version": "3007.17+2.g255e983457",
+    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/42943673799",
+    "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/v3007.17+2.g255e983457",
+    "overall_status": "success",
+    "artifact_count": 47,
+    "test_counts": {
+      "totals": {
+        "tests": 469,
+        "failed": 0,
+        "flaky": 0,
+        "skipped": 545,
+        "passed": 469,
+        "unique": 469
+      },
+      "by_suite_os": {
+        "functional|macos-15": {
+          "tests": 26,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 8,
+          "passed": 26
+        },
+        "integration|macos-15": {
+          "tests": 5,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 13,
+          "passed": 5
+        },
+        "integration|macos-15-intel": {
+          "tests": 0,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 4,
+          "passed": 0
+        },
+        "integration|windows-2025": {
+          "tests": 1,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 163,
+          "passed": 1
+        },
+        "unit|macos-15": {
+          "tests": 77,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 52,
+          "passed": 77
+        },
+        "unit|windows-2022": {
+          "tests": 360,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 305,
+          "passed": 360
+        }
+      }
+    }
+  },
+  {
     "date": "2026-11-10",
     "branch": "3008.x",
     "tag": "v3008.5+211.g891001998a",
