@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-11-18",
+    "branch": "3008.x",
+    "tag": "v3008.5+266.gf136582d48",
+    "commit": "f136582d48b4cfb0557df1722baf03541a14a749",
+    "salt_version": "3008.5+266.gf136582d48",
+    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/44207434044",
+    "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/v3008.5+266.gf136582d48",
+    "overall_status": "success",
+    "artifact_count": 49,
+    "test_counts": {
+      "totals": {
+        "tests": 544,
+        "failed": 0,
+        "flaky": 0,
+        "skipped": 149,
+        "passed": 544,
+        "unique": 544
+      },
+      "by_suite_os": {
+        "unit|windows-2022": {
+          "tests": 544,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 149,
+          "passed": 544
+        }
+      }
+    }
+  },
+  {
     "date": "2026-11-15",
     "branch": "3008.x",
     "tag": "v3008.5+250.g3e1494c9f5",
@@ -27,28 +57,6 @@
           "passed": 18
         }
       }
-    }
-  },
-  {
-    "date": "2026-11-14",
-    "branch": "3006.x",
-    "tag": "v3006.30+0.g5b75ca94af",
-    "commit": "5b75ca94afd36f662f0c571d2074bdb6614cfeb8",
-    "salt_version": "3006.30+0.g5b75ca94af",
-    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/43533697190",
-    "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/v3006.30+0.g5b75ca94af",
-    "overall_status": "success",
-    "artifact_count": 5,
-    "test_counts": {
-      "totals": {
-        "tests": 0,
-        "failed": 0,
-        "flaky": 0,
-        "skipped": 0,
-        "passed": 0,
-        "unique": 0
-      },
-      "by_suite_os": {}
     }
   },
   {
@@ -82,15 +90,15 @@
     }
   },
   {
-    "date": "2026-11-13",
+    "date": "2026-11-14",
     "branch": "3006.x",
-    "tag": "v3006.30+1.g5b75ca94af",
+    "tag": "v3006.30+0.g5b75ca94af",
     "commit": "5b75ca94afd36f662f0c571d2074bdb6614cfeb8",
-    "salt_version": "3006.30+1.g5b75ca94af",
-    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/43342475609",
-    "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/v3006.30+1.g5b75ca94af",
+    "salt_version": "3006.30+0.g5b75ca94af",
+    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/43533697190",
+    "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/v3006.30+0.g5b75ca94af",
     "overall_status": "success",
-    "artifact_count": 6,
+    "artifact_count": 5,
     "test_counts": {
       "totals": {
         "tests": 0,
@@ -113,6 +121,28 @@
     "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/v3008.5+231.gf2efdd1fcb",
     "overall_status": "success",
     "artifact_count": 8,
+    "test_counts": {
+      "totals": {
+        "tests": 0,
+        "failed": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "passed": 0,
+        "unique": 0
+      },
+      "by_suite_os": {}
+    }
+  },
+  {
+    "date": "2026-11-13",
+    "branch": "3006.x",
+    "tag": "v3006.30+1.g5b75ca94af",
+    "commit": "5b75ca94afd36f662f0c571d2074bdb6614cfeb8",
+    "salt_version": "3006.30+1.g5b75ca94af",
+    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/43342475609",
+    "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/v3006.30+1.g5b75ca94af",
+    "overall_status": "success",
+    "artifact_count": 6,
     "test_counts": {
       "totals": {
         "tests": 0,
@@ -878,28 +908,6 @@
   },
   {
     "date": "2026-11-07",
-    "branch": "3006.x",
-    "tag": "v3006.30+0.g0b3c5bb716",
-    "commit": "0b3c5bb716b578f2ae8f890ad5cfe99c56b81ff6",
-    "salt_version": "3006.30+0.g0b3c5bb716",
-    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/42143003224",
-    "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/v3006.30+0.g0b3c5bb716",
-    "overall_status": "success",
-    "artifact_count": 4,
-    "test_counts": {
-      "totals": {
-        "tests": 0,
-        "failed": 0,
-        "flaky": 0,
-        "skipped": 0,
-        "passed": 0,
-        "unique": 0
-      },
-      "by_suite_os": {}
-    }
-  },
-  {
-    "date": "2026-11-07",
     "branch": "3008.x",
     "tag": "v3008.5+204.gc77d6dfc80",
     "commit": "c77d6dfc802ed356f4d2881f2cbf5301a64f1141",
@@ -1437,6 +1445,28 @@
           "passed": 1987
         }
       }
+    }
+  },
+  {
+    "date": "2026-11-07",
+    "branch": "3006.x",
+    "tag": "v3006.30+0.g0b3c5bb716",
+    "commit": "0b3c5bb716b578f2ae8f890ad5cfe99c56b81ff6",
+    "salt_version": "3006.30+0.g0b3c5bb716",
+    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/42143003224",
+    "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/v3006.30+0.g0b3c5bb716",
+    "overall_status": "success",
+    "artifact_count": 4,
+    "test_counts": {
+      "totals": {
+        "tests": 0,
+        "failed": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "passed": 0,
+        "unique": 0
+      },
+      "by_suite_os": {}
     }
   },
   {
@@ -3164,547 +3194,6 @@
   },
   {
     "date": "2026-11-05",
-    "branch": "3006.x",
-    "tag": "v3006.30+1.g0b3c5bb716",
-    "commit": "0b3c5bb716b578f2ae8f890ad5cfe99c56b81ff6",
-    "salt_version": "3006.30+1.g0b3c5bb716",
-    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/41941789209",
-    "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/v3006.30+1.g0b3c5bb716",
-    "overall_status": "success",
-    "artifact_count": 6,
-    "test_counts": {
-      "totals": {
-        "tests": 267296,
-        "failed": 0,
-        "flaky": 208,
-        "skipped": 69823,
-        "passed": 267088,
-        "unique": 19548
-      },
-      "by_suite_os": {
-        "functional|amazonlinux-2": {
-          "tests": 1583,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1364,
-          "passed": 1583
-        },
-        "functional|amazonlinux-2023-arm64": {
-          "tests": 1601,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1346,
-          "passed": 1601
-        },
-        "functional|debian-11": {
-          "tests": 2020,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 927,
-          "passed": 2020
-        },
-        "functional|debian-12-arm64": {
-          "tests": 1637,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1310,
-          "passed": 1637
-        },
-        "functional|debian-13": {
-          "tests": 1622,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1325,
-          "passed": 1622
-        },
-        "functional|fedora-43": {
-          "tests": 1603,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1344,
-          "passed": 1603
-        },
-        "functional|macos-15": {
-          "tests": 86,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 50,
-          "passed": 85
-        },
-        "functional|macos-15-intel": {
-          "tests": 80,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 56,
-          "passed": 80
-        },
-        "functional|photonos-4": {
-          "tests": 1075,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1872,
-          "passed": 1075
-        },
-        "functional|photonos-4-arm64": {
-          "tests": 1583,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1364,
-          "passed": 1583
-        },
-        "functional|photonos-5": {
-          "tests": 1584,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1363,
-          "passed": 1584
-        },
-        "functional|photonos-5-arm64": {
-          "tests": 1076,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1871,
-          "passed": 1076
-        },
-        "functional|rockylinux-8-arm64": {
-          "tests": 1574,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1373,
-          "passed": 1574
-        },
-        "functional|rockylinux-9": {
-          "tests": 1607,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1340,
-          "passed": 1607
-        },
-        "functional|ubuntu-22.04-arm64": {
-          "tests": 1644,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1303,
-          "passed": 1644
-        },
-        "functional|ubuntu-24.04": {
-          "tests": 1625,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1322,
-          "passed": 1625
-        },
-        "functional|ubuntu-26.04": {
-          "tests": 1889,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1058,
-          "passed": 1889
-        },
-        "functional|windows-2022": {
-          "tests": 1343,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 502,
-          "passed": 1343
-        },
-        "functional|windows-2025": {
-          "tests": 1343,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 502,
-          "passed": 1343
-        },
-        "integration|amazonlinux-2": {
-          "tests": 1231,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 610,
-          "passed": 1225
-        },
-        "integration|amazonlinux-2023-arm64": {
-          "tests": 1236,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 604,
-          "passed": 1235
-        },
-        "integration|debian-11": {
-          "tests": 1418,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 423,
-          "passed": 1412
-        },
-        "integration|debian-12-arm64": {
-          "tests": 1243,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 597,
-          "passed": 1242
-        },
-        "integration|debian-13": {
-          "tests": 1244,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 596,
-          "passed": 1243
-        },
-        "integration|fedora-43": {
-          "tests": 1238,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 602,
-          "passed": 1237
-        },
-        "integration|macos-15": {
-          "tests": 7,
-          "failed": 0,
-          "flaky": 2,
-          "skipped": 18,
-          "passed": 5
-        },
-        "integration|macos-15-intel": {
-          "tests": 6,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 19,
-          "passed": 6
-        },
-        "integration|photonos-4": {
-          "tests": 1185,
-          "failed": 0,
-          "flaky": 7,
-          "skipped": 656,
-          "passed": 1178
-        },
-        "integration|photonos-4-arm64": {
-          "tests": 1219,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 622,
-          "passed": 1213
-        },
-        "integration|photonos-5": {
-          "tests": 2455,
-          "failed": 0,
-          "flaky": 3,
-          "skipped": 1225,
-          "passed": 2452
-        },
-        "integration|photonos-5-arm64": {
-          "tests": 2383,
-          "failed": 0,
-          "flaky": 2,
-          "skipped": 1297,
-          "passed": 2381
-        },
-        "integration|rockylinux-8-arm64": {
-          "tests": 1232,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 609,
-          "passed": 1226
-        },
-        "integration|rockylinux-9": {
-          "tests": 2480,
-          "failed": 0,
-          "flaky": 2,
-          "skipped": 1200,
-          "passed": 2478
-        },
-        "integration|ubuntu-22.04-arm64": {
-          "tests": 2488,
-          "failed": 0,
-          "flaky": 2,
-          "skipped": 1192,
-          "passed": 2486
-        },
-        "integration|ubuntu-24.04": {
-          "tests": 1075,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 765,
-          "passed": 1075
-        },
-        "integration|ubuntu-26.04": {
-          "tests": 1429,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 411,
-          "passed": 1428
-        },
-        "integration|windows-2022": {
-          "tests": 467,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 523,
-          "passed": 467
-        },
-        "integration|windows-2025": {
-          "tests": 467,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 523,
-          "passed": 467
-        },
-        "scenarios|amazonlinux-2": {
-          "tests": 57,
-          "failed": 0,
-          "flaky": 4,
-          "skipped": 25,
-          "passed": 53
-        },
-        "scenarios|amazonlinux-2023-arm64": {
-          "tests": 57,
-          "failed": 0,
-          "flaky": 3,
-          "skipped": 25,
-          "passed": 54
-        },
-        "scenarios|debian-11": {
-          "tests": 66,
-          "failed": 0,
-          "flaky": 3,
-          "skipped": 16,
-          "passed": 63
-        },
-        "scenarios|debian-12-arm64": {
-          "tests": 57,
-          "failed": 0,
-          "flaky": 4,
-          "skipped": 25,
-          "passed": 53
-        },
-        "scenarios|debian-13": {
-          "tests": 59,
-          "failed": 0,
-          "flaky": 3,
-          "skipped": 23,
-          "passed": 56
-        },
-        "scenarios|fedora-43": {
-          "tests": 57,
-          "failed": 0,
-          "flaky": 3,
-          "skipped": 25,
-          "passed": 54
-        },
-        "scenarios|photonos-4": {
-          "tests": 57,
-          "failed": 0,
-          "flaky": 3,
-          "skipped": 25,
-          "passed": 54
-        },
-        "scenarios|photonos-4-arm64": {
-          "tests": 57,
-          "failed": 0,
-          "flaky": 3,
-          "skipped": 25,
-          "passed": 54
-        },
-        "scenarios|photonos-5": {
-          "tests": 115,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 49,
-          "passed": 109
-        },
-        "scenarios|photonos-5-arm64": {
-          "tests": 110,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 54,
-          "passed": 104
-        },
-        "scenarios|rockylinux-8-arm64": {
-          "tests": 58,
-          "failed": 0,
-          "flaky": 3,
-          "skipped": 24,
-          "passed": 55
-        },
-        "scenarios|rockylinux-9": {
-          "tests": 114,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 50,
-          "passed": 108
-        },
-        "scenarios|ubuntu-22.04-arm64": {
-          "tests": 115,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 49,
-          "passed": 109
-        },
-        "scenarios|ubuntu-24.04": {
-          "tests": 57,
-          "failed": 0,
-          "flaky": 3,
-          "skipped": 25,
-          "passed": 54
-        },
-        "scenarios|ubuntu-26.04": {
-          "tests": 67,
-          "failed": 0,
-          "flaky": 4,
-          "skipped": 15,
-          "passed": 63
-        },
-        "scenarios|windows-2022": {
-          "tests": 3,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 15,
-          "passed": 3
-        },
-        "scenarios|windows-2025": {
-          "tests": 3,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 15,
-          "passed": 3
-        },
-        "unit|amazonlinux-2": {
-          "tests": 14019,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 2270,
-          "passed": 14013
-        },
-        "unit|amazonlinux-2023-arm64": {
-          "tests": 14173,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 2121,
-          "passed": 14167
-        },
-        "unit|debian-11": {
-          "tests": 14019,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 2270,
-          "passed": 14013
-        },
-        "unit|debian-12-arm64": {
-          "tests": 14169,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 2125,
-          "passed": 14163
-        },
-        "unit|debian-13": {
-          "tests": 14169,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 2125,
-          "passed": 14163
-        },
-        "unit|fedora-43": {
-          "tests": 14173,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 2121,
-          "passed": 14167
-        },
-        "unit|macos-15": {
-          "tests": 391,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 120,
-          "passed": 391
-        },
-        "unit|macos-15-intel": {
-          "tests": 391,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 120,
-          "passed": 391
-        },
-        "unit|photonos-4": {
-          "tests": 13417,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 2872,
-          "passed": 13411
-        },
-        "unit|photonos-4-arm64": {
-          "tests": 14022,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 2267,
-          "passed": 14016
-        },
-        "unit|photonos-5": {
-          "tests": 14170,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 2124,
-          "passed": 14164
-        },
-        "unit|photonos-5-arm64": {
-          "tests": 13565,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 2729,
-          "passed": 13559
-        },
-        "unit|rockylinux-8-arm64": {
-          "tests": 14022,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 2267,
-          "passed": 14016
-        },
-        "unit|rockylinux-9": {
-          "tests": 14173,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 2121,
-          "passed": 14167
-        },
-        "unit|ubuntu-22.04-arm64": {
-          "tests": 14172,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 2122,
-          "passed": 14166
-        },
-        "unit|ubuntu-24.04": {
-          "tests": 14172,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 2122,
-          "passed": 14166
-        },
-        "unit|ubuntu-26.04": {
-          "tests": 14172,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 2122,
-          "passed": 14166
-        },
-        "unit|windows-2022": {
-          "tests": 1860,
-          "failed": 0,
-          "flaky": 5,
-          "skipped": 618,
-          "passed": 1855
-        },
-        "unit|windows-2025": {
-          "tests": 1860,
-          "failed": 0,
-          "flaky": 5,
-          "skipped": 618,
-          "passed": 1855
-        }
-      }
-    }
-  },
-  {
-    "date": "2026-11-05",
     "branch": "3008.x",
     "tag": "v3008.5+195.g9a9946b6a0",
     "commit": "9a9946b6a050fd9e5ff4e87223f5108d462b518b",
@@ -4240,6 +3729,547 @@
           "flaky": 0,
           "skipped": 717,
           "passed": 1982
+        }
+      }
+    }
+  },
+  {
+    "date": "2026-11-05",
+    "branch": "3006.x",
+    "tag": "v3006.30+1.g0b3c5bb716",
+    "commit": "0b3c5bb716b578f2ae8f890ad5cfe99c56b81ff6",
+    "salt_version": "3006.30+1.g0b3c5bb716",
+    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/41941789209",
+    "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/v3006.30+1.g0b3c5bb716",
+    "overall_status": "success",
+    "artifact_count": 6,
+    "test_counts": {
+      "totals": {
+        "tests": 267296,
+        "failed": 0,
+        "flaky": 208,
+        "skipped": 69823,
+        "passed": 267088,
+        "unique": 19548
+      },
+      "by_suite_os": {
+        "functional|amazonlinux-2": {
+          "tests": 1583,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1364,
+          "passed": 1583
+        },
+        "functional|amazonlinux-2023-arm64": {
+          "tests": 1601,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1346,
+          "passed": 1601
+        },
+        "functional|debian-11": {
+          "tests": 2020,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 927,
+          "passed": 2020
+        },
+        "functional|debian-12-arm64": {
+          "tests": 1637,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1310,
+          "passed": 1637
+        },
+        "functional|debian-13": {
+          "tests": 1622,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1325,
+          "passed": 1622
+        },
+        "functional|fedora-43": {
+          "tests": 1603,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1344,
+          "passed": 1603
+        },
+        "functional|macos-15": {
+          "tests": 86,
+          "failed": 0,
+          "flaky": 1,
+          "skipped": 50,
+          "passed": 85
+        },
+        "functional|macos-15-intel": {
+          "tests": 80,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 56,
+          "passed": 80
+        },
+        "functional|photonos-4": {
+          "tests": 1075,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1872,
+          "passed": 1075
+        },
+        "functional|photonos-4-arm64": {
+          "tests": 1583,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1364,
+          "passed": 1583
+        },
+        "functional|photonos-5": {
+          "tests": 1584,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1363,
+          "passed": 1584
+        },
+        "functional|photonos-5-arm64": {
+          "tests": 1076,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1871,
+          "passed": 1076
+        },
+        "functional|rockylinux-8-arm64": {
+          "tests": 1574,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1373,
+          "passed": 1574
+        },
+        "functional|rockylinux-9": {
+          "tests": 1607,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1340,
+          "passed": 1607
+        },
+        "functional|ubuntu-22.04-arm64": {
+          "tests": 1644,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1303,
+          "passed": 1644
+        },
+        "functional|ubuntu-24.04": {
+          "tests": 1625,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1322,
+          "passed": 1625
+        },
+        "functional|ubuntu-26.04": {
+          "tests": 1889,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1058,
+          "passed": 1889
+        },
+        "functional|windows-2022": {
+          "tests": 1343,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 502,
+          "passed": 1343
+        },
+        "functional|windows-2025": {
+          "tests": 1343,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 502,
+          "passed": 1343
+        },
+        "integration|amazonlinux-2": {
+          "tests": 1231,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 610,
+          "passed": 1225
+        },
+        "integration|amazonlinux-2023-arm64": {
+          "tests": 1236,
+          "failed": 0,
+          "flaky": 1,
+          "skipped": 604,
+          "passed": 1235
+        },
+        "integration|debian-11": {
+          "tests": 1418,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 423,
+          "passed": 1412
+        },
+        "integration|debian-12-arm64": {
+          "tests": 1243,
+          "failed": 0,
+          "flaky": 1,
+          "skipped": 597,
+          "passed": 1242
+        },
+        "integration|debian-13": {
+          "tests": 1244,
+          "failed": 0,
+          "flaky": 1,
+          "skipped": 596,
+          "passed": 1243
+        },
+        "integration|fedora-43": {
+          "tests": 1238,
+          "failed": 0,
+          "flaky": 1,
+          "skipped": 602,
+          "passed": 1237
+        },
+        "integration|macos-15": {
+          "tests": 7,
+          "failed": 0,
+          "flaky": 2,
+          "skipped": 18,
+          "passed": 5
+        },
+        "integration|macos-15-intel": {
+          "tests": 6,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 19,
+          "passed": 6
+        },
+        "integration|photonos-4": {
+          "tests": 1185,
+          "failed": 0,
+          "flaky": 7,
+          "skipped": 656,
+          "passed": 1178
+        },
+        "integration|photonos-4-arm64": {
+          "tests": 1219,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 622,
+          "passed": 1213
+        },
+        "integration|photonos-5": {
+          "tests": 2455,
+          "failed": 0,
+          "flaky": 3,
+          "skipped": 1225,
+          "passed": 2452
+        },
+        "integration|photonos-5-arm64": {
+          "tests": 2383,
+          "failed": 0,
+          "flaky": 2,
+          "skipped": 1297,
+          "passed": 2381
+        },
+        "integration|rockylinux-8-arm64": {
+          "tests": 1232,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 609,
+          "passed": 1226
+        },
+        "integration|rockylinux-9": {
+          "tests": 2480,
+          "failed": 0,
+          "flaky": 2,
+          "skipped": 1200,
+          "passed": 2478
+        },
+        "integration|ubuntu-22.04-arm64": {
+          "tests": 2488,
+          "failed": 0,
+          "flaky": 2,
+          "skipped": 1192,
+          "passed": 2486
+        },
+        "integration|ubuntu-24.04": {
+          "tests": 1075,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 765,
+          "passed": 1075
+        },
+        "integration|ubuntu-26.04": {
+          "tests": 1429,
+          "failed": 0,
+          "flaky": 1,
+          "skipped": 411,
+          "passed": 1428
+        },
+        "integration|windows-2022": {
+          "tests": 467,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 523,
+          "passed": 467
+        },
+        "integration|windows-2025": {
+          "tests": 467,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 523,
+          "passed": 467
+        },
+        "scenarios|amazonlinux-2": {
+          "tests": 57,
+          "failed": 0,
+          "flaky": 4,
+          "skipped": 25,
+          "passed": 53
+        },
+        "scenarios|amazonlinux-2023-arm64": {
+          "tests": 57,
+          "failed": 0,
+          "flaky": 3,
+          "skipped": 25,
+          "passed": 54
+        },
+        "scenarios|debian-11": {
+          "tests": 66,
+          "failed": 0,
+          "flaky": 3,
+          "skipped": 16,
+          "passed": 63
+        },
+        "scenarios|debian-12-arm64": {
+          "tests": 57,
+          "failed": 0,
+          "flaky": 4,
+          "skipped": 25,
+          "passed": 53
+        },
+        "scenarios|debian-13": {
+          "tests": 59,
+          "failed": 0,
+          "flaky": 3,
+          "skipped": 23,
+          "passed": 56
+        },
+        "scenarios|fedora-43": {
+          "tests": 57,
+          "failed": 0,
+          "flaky": 3,
+          "skipped": 25,
+          "passed": 54
+        },
+        "scenarios|photonos-4": {
+          "tests": 57,
+          "failed": 0,
+          "flaky": 3,
+          "skipped": 25,
+          "passed": 54
+        },
+        "scenarios|photonos-4-arm64": {
+          "tests": 57,
+          "failed": 0,
+          "flaky": 3,
+          "skipped": 25,
+          "passed": 54
+        },
+        "scenarios|photonos-5": {
+          "tests": 115,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 49,
+          "passed": 109
+        },
+        "scenarios|photonos-5-arm64": {
+          "tests": 110,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 54,
+          "passed": 104
+        },
+        "scenarios|rockylinux-8-arm64": {
+          "tests": 58,
+          "failed": 0,
+          "flaky": 3,
+          "skipped": 24,
+          "passed": 55
+        },
+        "scenarios|rockylinux-9": {
+          "tests": 114,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 50,
+          "passed": 108
+        },
+        "scenarios|ubuntu-22.04-arm64": {
+          "tests": 115,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 49,
+          "passed": 109
+        },
+        "scenarios|ubuntu-24.04": {
+          "tests": 57,
+          "failed": 0,
+          "flaky": 3,
+          "skipped": 25,
+          "passed": 54
+        },
+        "scenarios|ubuntu-26.04": {
+          "tests": 67,
+          "failed": 0,
+          "flaky": 4,
+          "skipped": 15,
+          "passed": 63
+        },
+        "scenarios|windows-2022": {
+          "tests": 3,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 15,
+          "passed": 3
+        },
+        "scenarios|windows-2025": {
+          "tests": 3,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 15,
+          "passed": 3
+        },
+        "unit|amazonlinux-2": {
+          "tests": 14019,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 2270,
+          "passed": 14013
+        },
+        "unit|amazonlinux-2023-arm64": {
+          "tests": 14173,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 2121,
+          "passed": 14167
+        },
+        "unit|debian-11": {
+          "tests": 14019,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 2270,
+          "passed": 14013
+        },
+        "unit|debian-12-arm64": {
+          "tests": 14169,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 2125,
+          "passed": 14163
+        },
+        "unit|debian-13": {
+          "tests": 14169,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 2125,
+          "passed": 14163
+        },
+        "unit|fedora-43": {
+          "tests": 14173,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 2121,
+          "passed": 14167
+        },
+        "unit|macos-15": {
+          "tests": 391,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 120,
+          "passed": 391
+        },
+        "unit|macos-15-intel": {
+          "tests": 391,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 120,
+          "passed": 391
+        },
+        "unit|photonos-4": {
+          "tests": 13417,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 2872,
+          "passed": 13411
+        },
+        "unit|photonos-4-arm64": {
+          "tests": 14022,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 2267,
+          "passed": 14016
+        },
+        "unit|photonos-5": {
+          "tests": 14170,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 2124,
+          "passed": 14164
+        },
+        "unit|photonos-5-arm64": {
+          "tests": 13565,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 2729,
+          "passed": 13559
+        },
+        "unit|rockylinux-8-arm64": {
+          "tests": 14022,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 2267,
+          "passed": 14016
+        },
+        "unit|rockylinux-9": {
+          "tests": 14173,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 2121,
+          "passed": 14167
+        },
+        "unit|ubuntu-22.04-arm64": {
+          "tests": 14172,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 2122,
+          "passed": 14166
+        },
+        "unit|ubuntu-24.04": {
+          "tests": 14172,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 2122,
+          "passed": 14166
+        },
+        "unit|ubuntu-26.04": {
+          "tests": 14172,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 2122,
+          "passed": 14166
+        },
+        "unit|windows-2022": {
+          "tests": 1860,
+          "failed": 0,
+          "flaky": 5,
+          "skipped": 618,
+          "passed": 1855
+        },
+        "unit|windows-2025": {
+          "tests": 1860,
+          "failed": 0,
+          "flaky": 5,
+          "skipped": 618,
+          "passed": 1855
         }
       }
     }
@@ -5465,547 +5495,6 @@
   },
   {
     "date": "2026-10-31",
-    "branch": "3006.x",
-    "tag": "v3006.30+1.g888f452db2",
-    "commit": "888f452db287992f692d124a87729f740b931f50",
-    "salt_version": "3006.30+1.g888f452db2",
-    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/41154663307",
-    "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/v3006.30+1.g888f452db2",
-    "overall_status": "success",
-    "artifact_count": 56,
-    "test_counts": {
-      "totals": {
-        "tests": 267300,
-        "failed": 0,
-        "flaky": 204,
-        "skipped": 69819,
-        "passed": 267096,
-        "unique": 19547
-      },
-      "by_suite_os": {
-        "functional|amazonlinux-2": {
-          "tests": 1583,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1364,
-          "passed": 1583
-        },
-        "functional|amazonlinux-2023-arm64": {
-          "tests": 1601,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1346,
-          "passed": 1601
-        },
-        "functional|debian-11": {
-          "tests": 2020,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 927,
-          "passed": 2020
-        },
-        "functional|debian-12-arm64": {
-          "tests": 1637,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1310,
-          "passed": 1637
-        },
-        "functional|debian-13": {
-          "tests": 1622,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1325,
-          "passed": 1622
-        },
-        "functional|fedora-43": {
-          "tests": 1603,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1344,
-          "passed": 1603
-        },
-        "functional|macos-15": {
-          "tests": 86,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 50,
-          "passed": 85
-        },
-        "functional|macos-15-intel": {
-          "tests": 80,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 56,
-          "passed": 80
-        },
-        "functional|photonos-4": {
-          "tests": 1075,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1872,
-          "passed": 1075
-        },
-        "functional|photonos-4-arm64": {
-          "tests": 1583,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1364,
-          "passed": 1583
-        },
-        "functional|photonos-5": {
-          "tests": 1584,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1363,
-          "passed": 1584
-        },
-        "functional|photonos-5-arm64": {
-          "tests": 1076,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1871,
-          "passed": 1076
-        },
-        "functional|rockylinux-8-arm64": {
-          "tests": 1574,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1373,
-          "passed": 1574
-        },
-        "functional|rockylinux-9": {
-          "tests": 1607,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1340,
-          "passed": 1607
-        },
-        "functional|ubuntu-22.04-arm64": {
-          "tests": 1644,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1303,
-          "passed": 1644
-        },
-        "functional|ubuntu-24.04": {
-          "tests": 1625,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1322,
-          "passed": 1625
-        },
-        "functional|ubuntu-26.04": {
-          "tests": 1889,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1058,
-          "passed": 1889
-        },
-        "functional|windows-2022": {
-          "tests": 1343,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 502,
-          "passed": 1343
-        },
-        "functional|windows-2025": {
-          "tests": 1343,
-          "failed": 0,
-          "flaky": 2,
-          "skipped": 502,
-          "passed": 1341
-        },
-        "integration|amazonlinux-2": {
-          "tests": 1231,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 610,
-          "passed": 1225
-        },
-        "integration|amazonlinux-2023-arm64": {
-          "tests": 1237,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 603,
-          "passed": 1236
-        },
-        "integration|debian-11": {
-          "tests": 1418,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 423,
-          "passed": 1412
-        },
-        "integration|debian-12-arm64": {
-          "tests": 1242,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 598,
-          "passed": 1241
-        },
-        "integration|debian-13": {
-          "tests": 1243,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 597,
-          "passed": 1242
-        },
-        "integration|fedora-43": {
-          "tests": 1237,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 603,
-          "passed": 1236
-        },
-        "integration|macos-15": {
-          "tests": 6,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 19,
-          "passed": 6
-        },
-        "integration|macos-15-intel": {
-          "tests": 6,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 19,
-          "passed": 6
-        },
-        "integration|photonos-4": {
-          "tests": 1185,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 656,
-          "passed": 1179
-        },
-        "integration|photonos-4-arm64": {
-          "tests": 1219,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 622,
-          "passed": 1213
-        },
-        "integration|photonos-5": {
-          "tests": 2456,
-          "failed": 0,
-          "flaky": 2,
-          "skipped": 1224,
-          "passed": 2454
-        },
-        "integration|photonos-5-arm64": {
-          "tests": 2383,
-          "failed": 0,
-          "flaky": 2,
-          "skipped": 1297,
-          "passed": 2381
-        },
-        "integration|rockylinux-8-arm64": {
-          "tests": 1232,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 609,
-          "passed": 1226
-        },
-        "integration|rockylinux-9": {
-          "tests": 2480,
-          "failed": 0,
-          "flaky": 2,
-          "skipped": 1200,
-          "passed": 2478
-        },
-        "integration|ubuntu-22.04-arm64": {
-          "tests": 2488,
-          "failed": 0,
-          "flaky": 2,
-          "skipped": 1192,
-          "passed": 2486
-        },
-        "integration|ubuntu-24.04": {
-          "tests": 1075,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 765,
-          "passed": 1075
-        },
-        "integration|ubuntu-26.04": {
-          "tests": 1428,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 412,
-          "passed": 1427
-        },
-        "integration|windows-2022": {
-          "tests": 467,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 523,
-          "passed": 467
-        },
-        "integration|windows-2025": {
-          "tests": 467,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 523,
-          "passed": 467
-        },
-        "scenarios|amazonlinux-2": {
-          "tests": 57,
-          "failed": 0,
-          "flaky": 3,
-          "skipped": 25,
-          "passed": 54
-        },
-        "scenarios|amazonlinux-2023-arm64": {
-          "tests": 57,
-          "failed": 0,
-          "flaky": 3,
-          "skipped": 25,
-          "passed": 54
-        },
-        "scenarios|debian-11": {
-          "tests": 66,
-          "failed": 0,
-          "flaky": 3,
-          "skipped": 16,
-          "passed": 63
-        },
-        "scenarios|debian-12-arm64": {
-          "tests": 57,
-          "failed": 0,
-          "flaky": 3,
-          "skipped": 25,
-          "passed": 54
-        },
-        "scenarios|debian-13": {
-          "tests": 59,
-          "failed": 0,
-          "flaky": 3,
-          "skipped": 23,
-          "passed": 56
-        },
-        "scenarios|fedora-43": {
-          "tests": 58,
-          "failed": 0,
-          "flaky": 4,
-          "skipped": 24,
-          "passed": 54
-        },
-        "scenarios|photonos-4": {
-          "tests": 55,
-          "failed": 0,
-          "flaky": 3,
-          "skipped": 27,
-          "passed": 52
-        },
-        "scenarios|photonos-4-arm64": {
-          "tests": 58,
-          "failed": 0,
-          "flaky": 3,
-          "skipped": 24,
-          "passed": 55
-        },
-        "scenarios|photonos-5": {
-          "tests": 117,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 47,
-          "passed": 111
-        },
-        "scenarios|photonos-5-arm64": {
-          "tests": 111,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 53,
-          "passed": 105
-        },
-        "scenarios|rockylinux-8-arm64": {
-          "tests": 57,
-          "failed": 0,
-          "flaky": 3,
-          "skipped": 25,
-          "passed": 54
-        },
-        "scenarios|rockylinux-9": {
-          "tests": 119,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 45,
-          "passed": 113
-        },
-        "scenarios|ubuntu-22.04-arm64": {
-          "tests": 115,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 49,
-          "passed": 109
-        },
-        "scenarios|ubuntu-24.04": {
-          "tests": 58,
-          "failed": 0,
-          "flaky": 3,
-          "skipped": 24,
-          "passed": 55
-        },
-        "scenarios|ubuntu-26.04": {
-          "tests": 66,
-          "failed": 0,
-          "flaky": 3,
-          "skipped": 16,
-          "passed": 63
-        },
-        "scenarios|windows-2022": {
-          "tests": 3,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 15,
-          "passed": 3
-        },
-        "scenarios|windows-2025": {
-          "tests": 3,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 15,
-          "passed": 3
-        },
-        "unit|amazonlinux-2": {
-          "tests": 14019,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 2270,
-          "passed": 14013
-        },
-        "unit|amazonlinux-2023-arm64": {
-          "tests": 14173,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 2121,
-          "passed": 14167
-        },
-        "unit|debian-11": {
-          "tests": 14019,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 2270,
-          "passed": 14013
-        },
-        "unit|debian-12-arm64": {
-          "tests": 14169,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 2125,
-          "passed": 14163
-        },
-        "unit|debian-13": {
-          "tests": 14169,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 2125,
-          "passed": 14163
-        },
-        "unit|fedora-43": {
-          "tests": 14173,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 2121,
-          "passed": 14167
-        },
-        "unit|macos-15": {
-          "tests": 391,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 120,
-          "passed": 391
-        },
-        "unit|macos-15-intel": {
-          "tests": 391,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 120,
-          "passed": 391
-        },
-        "unit|photonos-4": {
-          "tests": 13417,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 2872,
-          "passed": 13411
-        },
-        "unit|photonos-4-arm64": {
-          "tests": 14022,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 2267,
-          "passed": 14016
-        },
-        "unit|photonos-5": {
-          "tests": 14170,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 2124,
-          "passed": 14164
-        },
-        "unit|photonos-5-arm64": {
-          "tests": 13565,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 2729,
-          "passed": 13559
-        },
-        "unit|rockylinux-8-arm64": {
-          "tests": 14022,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 2267,
-          "passed": 14016
-        },
-        "unit|rockylinux-9": {
-          "tests": 14173,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 2121,
-          "passed": 14167
-        },
-        "unit|ubuntu-22.04-arm64": {
-          "tests": 14172,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 2122,
-          "passed": 14166
-        },
-        "unit|ubuntu-24.04": {
-          "tests": 14172,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 2122,
-          "passed": 14166
-        },
-        "unit|ubuntu-26.04": {
-          "tests": 14172,
-          "failed": 0,
-          "flaky": 6,
-          "skipped": 2122,
-          "passed": 14166
-        },
-        "unit|windows-2022": {
-          "tests": 1860,
-          "failed": 0,
-          "flaky": 5,
-          "skipped": 618,
-          "passed": 1855
-        },
-        "unit|windows-2025": {
-          "tests": 1860,
-          "failed": 0,
-          "flaky": 5,
-          "skipped": 618,
-          "passed": 1855
-        }
-      }
-    }
-  },
-  {
-    "date": "2026-10-31",
     "branch": "3008.x",
     "tag": "v3008.3+177.gf3c6a44bfd",
     "commit": "f3c6a44bfd1e9814bb5e0e1fe994da09dc84c735",
@@ -6541,6 +6030,547 @@
           "flaky": 0,
           "skipped": 695,
           "passed": 1982
+        }
+      }
+    }
+  },
+  {
+    "date": "2026-10-31",
+    "branch": "3006.x",
+    "tag": "v3006.30+1.g888f452db2",
+    "commit": "888f452db287992f692d124a87729f740b931f50",
+    "salt_version": "3006.30+1.g888f452db2",
+    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/41154663307",
+    "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/v3006.30+1.g888f452db2",
+    "overall_status": "success",
+    "artifact_count": 56,
+    "test_counts": {
+      "totals": {
+        "tests": 267300,
+        "failed": 0,
+        "flaky": 204,
+        "skipped": 69819,
+        "passed": 267096,
+        "unique": 19547
+      },
+      "by_suite_os": {
+        "functional|amazonlinux-2": {
+          "tests": 1583,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1364,
+          "passed": 1583
+        },
+        "functional|amazonlinux-2023-arm64": {
+          "tests": 1601,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1346,
+          "passed": 1601
+        },
+        "functional|debian-11": {
+          "tests": 2020,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 927,
+          "passed": 2020
+        },
+        "functional|debian-12-arm64": {
+          "tests": 1637,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1310,
+          "passed": 1637
+        },
+        "functional|debian-13": {
+          "tests": 1622,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1325,
+          "passed": 1622
+        },
+        "functional|fedora-43": {
+          "tests": 1603,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1344,
+          "passed": 1603
+        },
+        "functional|macos-15": {
+          "tests": 86,
+          "failed": 0,
+          "flaky": 1,
+          "skipped": 50,
+          "passed": 85
+        },
+        "functional|macos-15-intel": {
+          "tests": 80,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 56,
+          "passed": 80
+        },
+        "functional|photonos-4": {
+          "tests": 1075,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1872,
+          "passed": 1075
+        },
+        "functional|photonos-4-arm64": {
+          "tests": 1583,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1364,
+          "passed": 1583
+        },
+        "functional|photonos-5": {
+          "tests": 1584,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1363,
+          "passed": 1584
+        },
+        "functional|photonos-5-arm64": {
+          "tests": 1076,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1871,
+          "passed": 1076
+        },
+        "functional|rockylinux-8-arm64": {
+          "tests": 1574,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1373,
+          "passed": 1574
+        },
+        "functional|rockylinux-9": {
+          "tests": 1607,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1340,
+          "passed": 1607
+        },
+        "functional|ubuntu-22.04-arm64": {
+          "tests": 1644,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1303,
+          "passed": 1644
+        },
+        "functional|ubuntu-24.04": {
+          "tests": 1625,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1322,
+          "passed": 1625
+        },
+        "functional|ubuntu-26.04": {
+          "tests": 1889,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1058,
+          "passed": 1889
+        },
+        "functional|windows-2022": {
+          "tests": 1343,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 502,
+          "passed": 1343
+        },
+        "functional|windows-2025": {
+          "tests": 1343,
+          "failed": 0,
+          "flaky": 2,
+          "skipped": 502,
+          "passed": 1341
+        },
+        "integration|amazonlinux-2": {
+          "tests": 1231,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 610,
+          "passed": 1225
+        },
+        "integration|amazonlinux-2023-arm64": {
+          "tests": 1237,
+          "failed": 0,
+          "flaky": 1,
+          "skipped": 603,
+          "passed": 1236
+        },
+        "integration|debian-11": {
+          "tests": 1418,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 423,
+          "passed": 1412
+        },
+        "integration|debian-12-arm64": {
+          "tests": 1242,
+          "failed": 0,
+          "flaky": 1,
+          "skipped": 598,
+          "passed": 1241
+        },
+        "integration|debian-13": {
+          "tests": 1243,
+          "failed": 0,
+          "flaky": 1,
+          "skipped": 597,
+          "passed": 1242
+        },
+        "integration|fedora-43": {
+          "tests": 1237,
+          "failed": 0,
+          "flaky": 1,
+          "skipped": 603,
+          "passed": 1236
+        },
+        "integration|macos-15": {
+          "tests": 6,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 19,
+          "passed": 6
+        },
+        "integration|macos-15-intel": {
+          "tests": 6,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 19,
+          "passed": 6
+        },
+        "integration|photonos-4": {
+          "tests": 1185,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 656,
+          "passed": 1179
+        },
+        "integration|photonos-4-arm64": {
+          "tests": 1219,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 622,
+          "passed": 1213
+        },
+        "integration|photonos-5": {
+          "tests": 2456,
+          "failed": 0,
+          "flaky": 2,
+          "skipped": 1224,
+          "passed": 2454
+        },
+        "integration|photonos-5-arm64": {
+          "tests": 2383,
+          "failed": 0,
+          "flaky": 2,
+          "skipped": 1297,
+          "passed": 2381
+        },
+        "integration|rockylinux-8-arm64": {
+          "tests": 1232,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 609,
+          "passed": 1226
+        },
+        "integration|rockylinux-9": {
+          "tests": 2480,
+          "failed": 0,
+          "flaky": 2,
+          "skipped": 1200,
+          "passed": 2478
+        },
+        "integration|ubuntu-22.04-arm64": {
+          "tests": 2488,
+          "failed": 0,
+          "flaky": 2,
+          "skipped": 1192,
+          "passed": 2486
+        },
+        "integration|ubuntu-24.04": {
+          "tests": 1075,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 765,
+          "passed": 1075
+        },
+        "integration|ubuntu-26.04": {
+          "tests": 1428,
+          "failed": 0,
+          "flaky": 1,
+          "skipped": 412,
+          "passed": 1427
+        },
+        "integration|windows-2022": {
+          "tests": 467,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 523,
+          "passed": 467
+        },
+        "integration|windows-2025": {
+          "tests": 467,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 523,
+          "passed": 467
+        },
+        "scenarios|amazonlinux-2": {
+          "tests": 57,
+          "failed": 0,
+          "flaky": 3,
+          "skipped": 25,
+          "passed": 54
+        },
+        "scenarios|amazonlinux-2023-arm64": {
+          "tests": 57,
+          "failed": 0,
+          "flaky": 3,
+          "skipped": 25,
+          "passed": 54
+        },
+        "scenarios|debian-11": {
+          "tests": 66,
+          "failed": 0,
+          "flaky": 3,
+          "skipped": 16,
+          "passed": 63
+        },
+        "scenarios|debian-12-arm64": {
+          "tests": 57,
+          "failed": 0,
+          "flaky": 3,
+          "skipped": 25,
+          "passed": 54
+        },
+        "scenarios|debian-13": {
+          "tests": 59,
+          "failed": 0,
+          "flaky": 3,
+          "skipped": 23,
+          "passed": 56
+        },
+        "scenarios|fedora-43": {
+          "tests": 58,
+          "failed": 0,
+          "flaky": 4,
+          "skipped": 24,
+          "passed": 54
+        },
+        "scenarios|photonos-4": {
+          "tests": 55,
+          "failed": 0,
+          "flaky": 3,
+          "skipped": 27,
+          "passed": 52
+        },
+        "scenarios|photonos-4-arm64": {
+          "tests": 58,
+          "failed": 0,
+          "flaky": 3,
+          "skipped": 24,
+          "passed": 55
+        },
+        "scenarios|photonos-5": {
+          "tests": 117,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 47,
+          "passed": 111
+        },
+        "scenarios|photonos-5-arm64": {
+          "tests": 111,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 53,
+          "passed": 105
+        },
+        "scenarios|rockylinux-8-arm64": {
+          "tests": 57,
+          "failed": 0,
+          "flaky": 3,
+          "skipped": 25,
+          "passed": 54
+        },
+        "scenarios|rockylinux-9": {
+          "tests": 119,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 45,
+          "passed": 113
+        },
+        "scenarios|ubuntu-22.04-arm64": {
+          "tests": 115,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 49,
+          "passed": 109
+        },
+        "scenarios|ubuntu-24.04": {
+          "tests": 58,
+          "failed": 0,
+          "flaky": 3,
+          "skipped": 24,
+          "passed": 55
+        },
+        "scenarios|ubuntu-26.04": {
+          "tests": 66,
+          "failed": 0,
+          "flaky": 3,
+          "skipped": 16,
+          "passed": 63
+        },
+        "scenarios|windows-2022": {
+          "tests": 3,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 15,
+          "passed": 3
+        },
+        "scenarios|windows-2025": {
+          "tests": 3,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 15,
+          "passed": 3
+        },
+        "unit|amazonlinux-2": {
+          "tests": 14019,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 2270,
+          "passed": 14013
+        },
+        "unit|amazonlinux-2023-arm64": {
+          "tests": 14173,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 2121,
+          "passed": 14167
+        },
+        "unit|debian-11": {
+          "tests": 14019,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 2270,
+          "passed": 14013
+        },
+        "unit|debian-12-arm64": {
+          "tests": 14169,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 2125,
+          "passed": 14163
+        },
+        "unit|debian-13": {
+          "tests": 14169,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 2125,
+          "passed": 14163
+        },
+        "unit|fedora-43": {
+          "tests": 14173,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 2121,
+          "passed": 14167
+        },
+        "unit|macos-15": {
+          "tests": 391,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 120,
+          "passed": 391
+        },
+        "unit|macos-15-intel": {
+          "tests": 391,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 120,
+          "passed": 391
+        },
+        "unit|photonos-4": {
+          "tests": 13417,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 2872,
+          "passed": 13411
+        },
+        "unit|photonos-4-arm64": {
+          "tests": 14022,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 2267,
+          "passed": 14016
+        },
+        "unit|photonos-5": {
+          "tests": 14170,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 2124,
+          "passed": 14164
+        },
+        "unit|photonos-5-arm64": {
+          "tests": 13565,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 2729,
+          "passed": 13559
+        },
+        "unit|rockylinux-8-arm64": {
+          "tests": 14022,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 2267,
+          "passed": 14016
+        },
+        "unit|rockylinux-9": {
+          "tests": 14173,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 2121,
+          "passed": 14167
+        },
+        "unit|ubuntu-22.04-arm64": {
+          "tests": 14172,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 2122,
+          "passed": 14166
+        },
+        "unit|ubuntu-24.04": {
+          "tests": 14172,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 2122,
+          "passed": 14166
+        },
+        "unit|ubuntu-26.04": {
+          "tests": 14172,
+          "failed": 0,
+          "flaky": 6,
+          "skipped": 2122,
+          "passed": 14166
+        },
+        "unit|windows-2022": {
+          "tests": 1860,
+          "failed": 0,
+          "flaky": 5,
+          "skipped": 618,
+          "passed": 1855
+        },
+        "unit|windows-2025": {
+          "tests": 1860,
+          "failed": 0,
+          "flaky": 5,
+          "skipped": 618,
+          "passed": 1855
         }
       }
     }
@@ -7088,28 +7118,6 @@
   },
   {
     "date": "2026-10-30",
-    "branch": "3006.x",
-    "tag": "v3006.30+6.ga8b4f51650",
-    "commit": "a8b4f51650f71aa0bbe2c5b2789d716e6757e8bd",
-    "salt_version": "3006.30+6.ga8b4f51650",
-    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/40988142613",
-    "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/v3006.30+6.ga8b4f51650",
-    "overall_status": "success",
-    "artifact_count": 10,
-    "test_counts": {
-      "totals": {
-        "tests": 0,
-        "failed": 0,
-        "flaky": 0,
-        "skipped": 0,
-        "passed": 0,
-        "unique": 0
-      },
-      "by_suite_os": {}
-    }
-  },
-  {
-    "date": "2026-10-30",
     "branch": "3008.x",
     "tag": "v3008.3+142.g7a74145e68",
     "commit": "7a74145e68f859bb10d3c337afcb8736d5293cbc",
@@ -7647,6 +7655,28 @@
           "passed": 1982
         }
       }
+    }
+  },
+  {
+    "date": "2026-10-30",
+    "branch": "3006.x",
+    "tag": "v3006.30+6.ga8b4f51650",
+    "commit": "a8b4f51650f71aa0bbe2c5b2789d716e6757e8bd",
+    "salt_version": "3006.30+6.ga8b4f51650",
+    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/40988142613",
+    "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/v3006.30+6.ga8b4f51650",
+    "overall_status": "success",
+    "artifact_count": 10,
+    "test_counts": {
+      "totals": {
+        "tests": 0,
+        "failed": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "passed": 0,
+        "unique": 0
+      },
+      "by_suite_os": {}
     }
   },
   {
@@ -14818,6 +14848,162 @@
   },
   {
     "date": "2026-09-19",
+    "branch": "3008.x",
+    "tag": "v3008.2+599.g6598257e09",
+    "commit": "6598257e093449672bfb270fb978819eca5a9778",
+    "salt_version": "3008.2+599.g6598257e09",
+    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/35409864829",
+    "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/v3008.2+599.g6598257e09",
+    "overall_status": "success",
+    "artifact_count": 51,
+    "test_counts": {
+      "totals": {
+        "tests": 18186,
+        "failed": 0,
+        "flaky": 0,
+        "skipped": 5449,
+        "passed": 18186,
+        "unique": 8190
+      },
+      "by_suite_os": {
+        "functional|amazonlinux-2023-arm64": {
+          "tests": 628,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 260,
+          "passed": 628
+        },
+        "functional|macos-15": {
+          "tests": 38,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 32,
+          "passed": 38
+        },
+        "functional|macos-15-intel": {
+          "tests": 24,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 11,
+          "passed": 24
+        },
+        "functional|rockylinux-9": {
+          "tests": 1021,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 756,
+          "passed": 1021
+        },
+        "functional|windows-2022": {
+          "tests": 335,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 135,
+          "passed": 335
+        },
+        "integration|amazonlinux-2": {
+          "tests": 0,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 316,
+          "passed": 0
+        },
+        "integration|debian-11": {
+          "tests": 0,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 316,
+          "passed": 0
+        },
+        "integration|macos-15": {
+          "tests": 0,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 2,
+          "passed": 0
+        },
+        "integration|macos-15-intel": {
+          "tests": 2,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 4,
+          "passed": 2
+        },
+        "integration|windows-2022": {
+          "tests": 70,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 100,
+          "passed": 70
+        },
+        "integration|windows-2025": {
+          "tests": 21,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 149,
+          "passed": 21
+        },
+        "unit|debian-13": {
+          "tests": 2633,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 930,
+          "passed": 2633
+        },
+        "unit|fedora-43": {
+          "tests": 3222,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 341,
+          "passed": 3222
+        },
+        "unit|macos-15": {
+          "tests": 121,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 25,
+          "passed": 121
+        },
+        "unit|macos-15-intel": {
+          "tests": 95,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 51,
+          "passed": 95
+        },
+        "unit|photonos-5-arm64": {
+          "tests": 3200,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 363,
+          "passed": 3200
+        },
+        "unit|rockylinux-8-arm64": {
+          "tests": 3220,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 342,
+          "passed": 3220
+        },
+        "unit|ubuntu-24.04": {
+          "tests": 2633,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 930,
+          "passed": 2633
+        },
+        "unit|windows-2022": {
+          "tests": 923,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 386,
+          "passed": 923
+        }
+      }
+    }
+  },
+  {
+    "date": "2026-09-19",
     "branch": "3006.x",
     "tag": "v3006.27+0.g123f6794a5",
     "commit": "123f6794a5f91e60bf66318e8fbed50910656647",
@@ -15353,162 +15539,6 @@
           "flaky": 5,
           "skipped": 618,
           "passed": 1855
-        }
-      }
-    }
-  },
-  {
-    "date": "2026-09-19",
-    "branch": "3008.x",
-    "tag": "v3008.2+599.g6598257e09",
-    "commit": "6598257e093449672bfb270fb978819eca5a9778",
-    "salt_version": "3008.2+599.g6598257e09",
-    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/35409864829",
-    "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/v3008.2+599.g6598257e09",
-    "overall_status": "success",
-    "artifact_count": 51,
-    "test_counts": {
-      "totals": {
-        "tests": 18186,
-        "failed": 0,
-        "flaky": 0,
-        "skipped": 5449,
-        "passed": 18186,
-        "unique": 8190
-      },
-      "by_suite_os": {
-        "functional|amazonlinux-2023-arm64": {
-          "tests": 628,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 260,
-          "passed": 628
-        },
-        "functional|macos-15": {
-          "tests": 38,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 32,
-          "passed": 38
-        },
-        "functional|macos-15-intel": {
-          "tests": 24,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 11,
-          "passed": 24
-        },
-        "functional|rockylinux-9": {
-          "tests": 1021,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 756,
-          "passed": 1021
-        },
-        "functional|windows-2022": {
-          "tests": 335,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 135,
-          "passed": 335
-        },
-        "integration|amazonlinux-2": {
-          "tests": 0,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 316,
-          "passed": 0
-        },
-        "integration|debian-11": {
-          "tests": 0,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 316,
-          "passed": 0
-        },
-        "integration|macos-15": {
-          "tests": 0,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 2,
-          "passed": 0
-        },
-        "integration|macos-15-intel": {
-          "tests": 2,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 4,
-          "passed": 2
-        },
-        "integration|windows-2022": {
-          "tests": 70,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 100,
-          "passed": 70
-        },
-        "integration|windows-2025": {
-          "tests": 21,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 149,
-          "passed": 21
-        },
-        "unit|debian-13": {
-          "tests": 2633,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 930,
-          "passed": 2633
-        },
-        "unit|fedora-43": {
-          "tests": 3222,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 341,
-          "passed": 3222
-        },
-        "unit|macos-15": {
-          "tests": 121,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 25,
-          "passed": 121
-        },
-        "unit|macos-15-intel": {
-          "tests": 95,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 51,
-          "passed": 95
-        },
-        "unit|photonos-5-arm64": {
-          "tests": 3200,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 363,
-          "passed": 3200
-        },
-        "unit|rockylinux-8-arm64": {
-          "tests": 3220,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 342,
-          "passed": 3220
-        },
-        "unit|ubuntu-24.04": {
-          "tests": 2633,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 930,
-          "passed": 2633
-        },
-        "unit|windows-2022": {
-          "tests": 923,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 386,
-          "passed": 923
         }
       }
     }
@@ -16072,6 +16102,519 @@
   },
   {
     "date": "2026-09-14",
+    "branch": "3008.x",
+    "tag": "v3008.2+588.g02ea048903",
+    "commit": "02ea048903f17dbd0dc15688ce6fde1025fa4313",
+    "salt_version": "3008.2+588.g02ea048903",
+    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/34793480825",
+    "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/v3008.2+588.g02ea048903",
+    "overall_status": "success",
+    "artifact_count": 51,
+    "test_counts": {
+      "totals": {
+        "tests": 240064,
+        "failed": 0,
+        "flaky": 36,
+        "skipped": 63445,
+        "passed": 240028,
+        "unique": 18671
+      },
+      "by_suite_os": {
+        "functional|amazonlinux-2": {
+          "tests": 2340,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1214,
+          "passed": 2340
+        },
+        "functional|amazonlinux-2023-arm64": {
+          "tests": 2359,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1195,
+          "passed": 2359
+        },
+        "functional|debian-11": {
+          "tests": 2660,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 894,
+          "passed": 2660
+        },
+        "functional|debian-12-arm64": {
+          "tests": 2393,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1161,
+          "passed": 2393
+        },
+        "functional|debian-13": {
+          "tests": 2378,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1176,
+          "passed": 2378
+        },
+        "functional|fedora-43": {
+          "tests": 2362,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1192,
+          "passed": 2362
+        },
+        "functional|macos-15": {
+          "tests": 90,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 51,
+          "passed": 90
+        },
+        "functional|macos-15-intel": {
+          "tests": 91,
+          "failed": 0,
+          "flaky": 3,
+          "skipped": 50,
+          "passed": 88
+        },
+        "functional|photonos-4": {
+          "tests": 1778,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1776,
+          "passed": 1778
+        },
+        "functional|photonos-4-arm64": {
+          "tests": 2341,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1213,
+          "passed": 2341
+        },
+        "functional|photonos-5": {
+          "tests": 2341,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1213,
+          "passed": 2341
+        },
+        "functional|photonos-5-arm64": {
+          "tests": 1778,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1776,
+          "passed": 1778
+        },
+        "functional|rockylinux-8-arm64": {
+          "tests": 2347,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1207,
+          "passed": 2347
+        },
+        "functional|rockylinux-9": {
+          "tests": 2364,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1190,
+          "passed": 2364
+        },
+        "functional|ubuntu-22.04-arm64": {
+          "tests": 2400,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1154,
+          "passed": 2400
+        },
+        "functional|ubuntu-24.04": {
+          "tests": 2381,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1173,
+          "passed": 2381
+        },
+        "functional|windows-2022": {
+          "tests": 1430,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 447,
+          "passed": 1430
+        },
+        "functional|windows-2025": {
+          "tests": 1430,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 447,
+          "passed": 1430
+        },
+        "integration|amazonlinux-2": {
+          "tests": 1263,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 945,
+          "passed": 1263
+        },
+        "integration|amazonlinux-2023-arm64": {
+          "tests": 1262,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 946,
+          "passed": 1262
+        },
+        "integration|debian-11": {
+          "tests": 1298,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 910,
+          "passed": 1298
+        },
+        "integration|debian-12-arm64": {
+          "tests": 1732,
+          "failed": 0,
+          "flaky": 1,
+          "skipped": 476,
+          "passed": 1731
+        },
+        "integration|debian-13": {
+          "tests": 1286,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 922,
+          "passed": 1286
+        },
+        "integration|fedora-43": {
+          "tests": 1759,
+          "failed": 0,
+          "flaky": 1,
+          "skipped": 449,
+          "passed": 1758
+        },
+        "integration|macos-15": {
+          "tests": 3,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 10,
+          "passed": 3
+        },
+        "integration|macos-15-intel": {
+          "tests": 3,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 10,
+          "passed": 3
+        },
+        "integration|photonos-4": {
+          "tests": 1660,
+          "failed": 0,
+          "flaky": 2,
+          "skipped": 548,
+          "passed": 1658
+        },
+        "integration|photonos-4-arm64": {
+          "tests": 1692,
+          "failed": 0,
+          "flaky": 1,
+          "skipped": 516,
+          "passed": 1691
+        },
+        "integration|photonos-5": {
+          "tests": 3390,
+          "failed": 0,
+          "flaky": 2,
+          "skipped": 1026,
+          "passed": 3388
+        },
+        "integration|photonos-5-arm64": {
+          "tests": 3322,
+          "failed": 0,
+          "flaky": 2,
+          "skipped": 1094,
+          "passed": 3320
+        },
+        "integration|rockylinux-8-arm64": {
+          "tests": 1266,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 942,
+          "passed": 1266
+        },
+        "integration|rockylinux-9": {
+          "tests": 2534,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 1882,
+          "passed": 2534
+        },
+        "integration|ubuntu-22.04-arm64": {
+          "tests": 3458,
+          "failed": 0,
+          "flaky": 2,
+          "skipped": 958,
+          "passed": 3456
+        },
+        "integration|ubuntu-24.04": {
+          "tests": 1264,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 944,
+          "passed": 1264
+        },
+        "integration|windows-2022": {
+          "tests": 452,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 737,
+          "passed": 452
+        },
+        "integration|windows-2025": {
+          "tests": 452,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 737,
+          "passed": 452
+        },
+        "scenarios|amazonlinux-2": {
+          "tests": 68,
+          "failed": 0,
+          "flaky": 1,
+          "skipped": 26,
+          "passed": 67
+        },
+        "scenarios|amazonlinux-2023-arm64": {
+          "tests": 68,
+          "failed": 0,
+          "flaky": 1,
+          "skipped": 26,
+          "passed": 67
+        },
+        "scenarios|debian-11": {
+          "tests": 68,
+          "failed": 0,
+          "flaky": 1,
+          "skipped": 26,
+          "passed": 67
+        },
+        "scenarios|debian-12-arm64": {
+          "tests": 68,
+          "failed": 0,
+          "flaky": 1,
+          "skipped": 26,
+          "passed": 67
+        },
+        "scenarios|debian-13": {
+          "tests": 68,
+          "failed": 0,
+          "flaky": 1,
+          "skipped": 26,
+          "passed": 67
+        },
+        "scenarios|fedora-43": {
+          "tests": 68,
+          "failed": 0,
+          "flaky": 1,
+          "skipped": 26,
+          "passed": 67
+        },
+        "scenarios|photonos-4": {
+          "tests": 65,
+          "failed": 0,
+          "flaky": 1,
+          "skipped": 29,
+          "passed": 64
+        },
+        "scenarios|photonos-4-arm64": {
+          "tests": 68,
+          "failed": 0,
+          "flaky": 1,
+          "skipped": 26,
+          "passed": 67
+        },
+        "scenarios|photonos-5": {
+          "tests": 136,
+          "failed": 0,
+          "flaky": 2,
+          "skipped": 52,
+          "passed": 134
+        },
+        "scenarios|photonos-5-arm64": {
+          "tests": 130,
+          "failed": 0,
+          "flaky": 2,
+          "skipped": 58,
+          "passed": 128
+        },
+        "scenarios|rockylinux-8-arm64": {
+          "tests": 68,
+          "failed": 0,
+          "flaky": 1,
+          "skipped": 26,
+          "passed": 67
+        },
+        "scenarios|rockylinux-9": {
+          "tests": 136,
+          "failed": 0,
+          "flaky": 2,
+          "skipped": 52,
+          "passed": 134
+        },
+        "scenarios|ubuntu-22.04-arm64": {
+          "tests": 136,
+          "failed": 0,
+          "flaky": 2,
+          "skipped": 52,
+          "passed": 134
+        },
+        "scenarios|ubuntu-24.04": {
+          "tests": 68,
+          "failed": 0,
+          "flaky": 1,
+          "skipped": 26,
+          "passed": 67
+        },
+        "scenarios|windows-2022": {
+          "tests": 4,
+          "failed": 0,
+          "flaky": 1,
+          "skipped": 16,
+          "passed": 3
+        },
+        "scenarios|windows-2025": {
+          "tests": 4,
+          "failed": 0,
+          "flaky": 1,
+          "skipped": 16,
+          "passed": 3
+        },
+        "unit|amazonlinux-2": {
+          "tests": 12191,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 2051,
+          "passed": 12191
+        },
+        "unit|amazonlinux-2023-arm64": {
+          "tests": 12204,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 2043,
+          "passed": 12204
+        },
+        "unit|debian-11": {
+          "tests": 12189,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 2053,
+          "passed": 12189
+        },
+        "unit|debian-12-arm64": {
+          "tests": 12200,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 2047,
+          "passed": 12200
+        },
+        "unit|debian-13": {
+          "tests": 12200,
+          "failed": 0,
+          "flaky": 1,
+          "skipped": 2047,
+          "passed": 12199
+        },
+        "unit|fedora-43": {
+          "tests": 12204,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 2043,
+          "passed": 12204
+        },
+        "unit|macos-15": {
+          "tests": 480,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 105,
+          "passed": 480
+        },
+        "unit|macos-15-intel": {
+          "tests": 480,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 105,
+          "passed": 480
+        },
+        "unit|photonos-4": {
+          "tests": 12128,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 2114,
+          "passed": 12128
+        },
+        "unit|photonos-4-arm64": {
+          "tests": 12192,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 2050,
+          "passed": 12192
+        },
+        "unit|photonos-5": {
+          "tests": 12201,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 2046,
+          "passed": 12201
+        },
+        "unit|photonos-5-arm64": {
+          "tests": 12137,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 2110,
+          "passed": 12137
+        },
+        "unit|rockylinux-8-arm64": {
+          "tests": 12192,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 2050,
+          "passed": 12192
+        },
+        "unit|rockylinux-9": {
+          "tests": 12204,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 2043,
+          "passed": 12204
+        },
+        "unit|ubuntu-22.04-arm64": {
+          "tests": 12203,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 2044,
+          "passed": 12203
+        },
+        "unit|ubuntu-24.04": {
+          "tests": 12203,
+          "failed": 0,
+          "flaky": 1,
+          "skipped": 2044,
+          "passed": 12202
+        },
+        "unit|windows-2022": {
+          "tests": 1937,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 680,
+          "passed": 1937
+        },
+        "unit|windows-2025": {
+          "tests": 1937,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 680,
+          "passed": 1937
+        }
+      }
+    }
+  },
+  {
+    "date": "2026-09-14",
     "branch": "3006.x",
     "tag": "v3006.27+292.g123f6794a5",
     "commit": "123f6794a5f91e60bf66318e8fbed50910656647",
@@ -16607,519 +17150,6 @@
           "flaky": 5,
           "skipped": 618,
           "passed": 1855
-        }
-      }
-    }
-  },
-  {
-    "date": "2026-09-14",
-    "branch": "3008.x",
-    "tag": "v3008.2+588.g02ea048903",
-    "commit": "02ea048903f17dbd0dc15688ce6fde1025fa4313",
-    "salt_version": "3008.2+588.g02ea048903",
-    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/34793480825",
-    "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/v3008.2+588.g02ea048903",
-    "overall_status": "success",
-    "artifact_count": 51,
-    "test_counts": {
-      "totals": {
-        "tests": 240064,
-        "failed": 0,
-        "flaky": 36,
-        "skipped": 63445,
-        "passed": 240028,
-        "unique": 18671
-      },
-      "by_suite_os": {
-        "functional|amazonlinux-2": {
-          "tests": 2340,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1214,
-          "passed": 2340
-        },
-        "functional|amazonlinux-2023-arm64": {
-          "tests": 2359,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1195,
-          "passed": 2359
-        },
-        "functional|debian-11": {
-          "tests": 2660,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 894,
-          "passed": 2660
-        },
-        "functional|debian-12-arm64": {
-          "tests": 2393,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1161,
-          "passed": 2393
-        },
-        "functional|debian-13": {
-          "tests": 2378,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1176,
-          "passed": 2378
-        },
-        "functional|fedora-43": {
-          "tests": 2362,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1192,
-          "passed": 2362
-        },
-        "functional|macos-15": {
-          "tests": 90,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 51,
-          "passed": 90
-        },
-        "functional|macos-15-intel": {
-          "tests": 91,
-          "failed": 0,
-          "flaky": 3,
-          "skipped": 50,
-          "passed": 88
-        },
-        "functional|photonos-4": {
-          "tests": 1778,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1776,
-          "passed": 1778
-        },
-        "functional|photonos-4-arm64": {
-          "tests": 2341,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1213,
-          "passed": 2341
-        },
-        "functional|photonos-5": {
-          "tests": 2341,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1213,
-          "passed": 2341
-        },
-        "functional|photonos-5-arm64": {
-          "tests": 1778,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1776,
-          "passed": 1778
-        },
-        "functional|rockylinux-8-arm64": {
-          "tests": 2347,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1207,
-          "passed": 2347
-        },
-        "functional|rockylinux-9": {
-          "tests": 2364,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1190,
-          "passed": 2364
-        },
-        "functional|ubuntu-22.04-arm64": {
-          "tests": 2400,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1154,
-          "passed": 2400
-        },
-        "functional|ubuntu-24.04": {
-          "tests": 2381,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1173,
-          "passed": 2381
-        },
-        "functional|windows-2022": {
-          "tests": 1430,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 447,
-          "passed": 1430
-        },
-        "functional|windows-2025": {
-          "tests": 1430,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 447,
-          "passed": 1430
-        },
-        "integration|amazonlinux-2": {
-          "tests": 1263,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 945,
-          "passed": 1263
-        },
-        "integration|amazonlinux-2023-arm64": {
-          "tests": 1262,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 946,
-          "passed": 1262
-        },
-        "integration|debian-11": {
-          "tests": 1298,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 910,
-          "passed": 1298
-        },
-        "integration|debian-12-arm64": {
-          "tests": 1732,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 476,
-          "passed": 1731
-        },
-        "integration|debian-13": {
-          "tests": 1286,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 922,
-          "passed": 1286
-        },
-        "integration|fedora-43": {
-          "tests": 1759,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 449,
-          "passed": 1758
-        },
-        "integration|macos-15": {
-          "tests": 3,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 10,
-          "passed": 3
-        },
-        "integration|macos-15-intel": {
-          "tests": 3,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 10,
-          "passed": 3
-        },
-        "integration|photonos-4": {
-          "tests": 1660,
-          "failed": 0,
-          "flaky": 2,
-          "skipped": 548,
-          "passed": 1658
-        },
-        "integration|photonos-4-arm64": {
-          "tests": 1692,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 516,
-          "passed": 1691
-        },
-        "integration|photonos-5": {
-          "tests": 3390,
-          "failed": 0,
-          "flaky": 2,
-          "skipped": 1026,
-          "passed": 3388
-        },
-        "integration|photonos-5-arm64": {
-          "tests": 3322,
-          "failed": 0,
-          "flaky": 2,
-          "skipped": 1094,
-          "passed": 3320
-        },
-        "integration|rockylinux-8-arm64": {
-          "tests": 1266,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 942,
-          "passed": 1266
-        },
-        "integration|rockylinux-9": {
-          "tests": 2534,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1882,
-          "passed": 2534
-        },
-        "integration|ubuntu-22.04-arm64": {
-          "tests": 3458,
-          "failed": 0,
-          "flaky": 2,
-          "skipped": 958,
-          "passed": 3456
-        },
-        "integration|ubuntu-24.04": {
-          "tests": 1264,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 944,
-          "passed": 1264
-        },
-        "integration|windows-2022": {
-          "tests": 452,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 737,
-          "passed": 452
-        },
-        "integration|windows-2025": {
-          "tests": 452,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 737,
-          "passed": 452
-        },
-        "scenarios|amazonlinux-2": {
-          "tests": 68,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 26,
-          "passed": 67
-        },
-        "scenarios|amazonlinux-2023-arm64": {
-          "tests": 68,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 26,
-          "passed": 67
-        },
-        "scenarios|debian-11": {
-          "tests": 68,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 26,
-          "passed": 67
-        },
-        "scenarios|debian-12-arm64": {
-          "tests": 68,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 26,
-          "passed": 67
-        },
-        "scenarios|debian-13": {
-          "tests": 68,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 26,
-          "passed": 67
-        },
-        "scenarios|fedora-43": {
-          "tests": 68,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 26,
-          "passed": 67
-        },
-        "scenarios|photonos-4": {
-          "tests": 65,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 29,
-          "passed": 64
-        },
-        "scenarios|photonos-4-arm64": {
-          "tests": 68,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 26,
-          "passed": 67
-        },
-        "scenarios|photonos-5": {
-          "tests": 136,
-          "failed": 0,
-          "flaky": 2,
-          "skipped": 52,
-          "passed": 134
-        },
-        "scenarios|photonos-5-arm64": {
-          "tests": 130,
-          "failed": 0,
-          "flaky": 2,
-          "skipped": 58,
-          "passed": 128
-        },
-        "scenarios|rockylinux-8-arm64": {
-          "tests": 68,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 26,
-          "passed": 67
-        },
-        "scenarios|rockylinux-9": {
-          "tests": 136,
-          "failed": 0,
-          "flaky": 2,
-          "skipped": 52,
-          "passed": 134
-        },
-        "scenarios|ubuntu-22.04-arm64": {
-          "tests": 136,
-          "failed": 0,
-          "flaky": 2,
-          "skipped": 52,
-          "passed": 134
-        },
-        "scenarios|ubuntu-24.04": {
-          "tests": 68,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 26,
-          "passed": 67
-        },
-        "scenarios|windows-2022": {
-          "tests": 4,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 16,
-          "passed": 3
-        },
-        "scenarios|windows-2025": {
-          "tests": 4,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 16,
-          "passed": 3
-        },
-        "unit|amazonlinux-2": {
-          "tests": 12191,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 2051,
-          "passed": 12191
-        },
-        "unit|amazonlinux-2023-arm64": {
-          "tests": 12204,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 2043,
-          "passed": 12204
-        },
-        "unit|debian-11": {
-          "tests": 12189,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 2053,
-          "passed": 12189
-        },
-        "unit|debian-12-arm64": {
-          "tests": 12200,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 2047,
-          "passed": 12200
-        },
-        "unit|debian-13": {
-          "tests": 12200,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 2047,
-          "passed": 12199
-        },
-        "unit|fedora-43": {
-          "tests": 12204,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 2043,
-          "passed": 12204
-        },
-        "unit|macos-15": {
-          "tests": 480,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 105,
-          "passed": 480
-        },
-        "unit|macos-15-intel": {
-          "tests": 480,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 105,
-          "passed": 480
-        },
-        "unit|photonos-4": {
-          "tests": 12128,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 2114,
-          "passed": 12128
-        },
-        "unit|photonos-4-arm64": {
-          "tests": 12192,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 2050,
-          "passed": 12192
-        },
-        "unit|photonos-5": {
-          "tests": 12201,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 2046,
-          "passed": 12201
-        },
-        "unit|photonos-5-arm64": {
-          "tests": 12137,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 2110,
-          "passed": 12137
-        },
-        "unit|rockylinux-8-arm64": {
-          "tests": 12192,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 2050,
-          "passed": 12192
-        },
-        "unit|rockylinux-9": {
-          "tests": 12204,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 2043,
-          "passed": 12204
-        },
-        "unit|ubuntu-22.04-arm64": {
-          "tests": 12203,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 2044,
-          "passed": 12203
-        },
-        "unit|ubuntu-24.04": {
-          "tests": 12203,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 2044,
-          "passed": 12202
-        },
-        "unit|windows-2022": {
-          "tests": 1937,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 680,
-          "passed": 1937
-        },
-        "unit|windows-2025": {
-          "tests": 1937,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 680,
-          "passed": 1937
         }
       }
     }
@@ -18180,6 +18210,28 @@
   },
   {
     "date": "2026-09-11",
+    "branch": "3008.x",
+    "tag": "nightly-2026-09-11-3008.x",
+    "commit": "02ea048903f17dbd0dc15688ce6fde1025fa4313",
+    "salt_version": "3008.2+588.g02ea048903",
+    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/34581723421",
+    "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/nightly-2026-09-11-3008.x",
+    "overall_status": "success",
+    "artifact_count": 51,
+    "test_counts": {
+      "totals": {
+        "tests": 0,
+        "failed": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "passed": 0,
+        "unique": 0
+      },
+      "by_suite_os": {}
+    }
+  },
+  {
+    "date": "2026-09-11",
     "branch": "3006.x",
     "tag": "nightly-2026-09-11-3006.x",
     "commit": "6f146d60237cc40b5f0ee0a6d317f3927bbba4ff",
@@ -18720,28 +18772,6 @@
     }
   },
   {
-    "date": "2026-09-11",
-    "branch": "3008.x",
-    "tag": "nightly-2026-09-11-3008.x",
-    "commit": "02ea048903f17dbd0dc15688ce6fde1025fa4313",
-    "salt_version": "3008.2+588.g02ea048903",
-    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/34581723421",
-    "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/nightly-2026-09-11-3008.x",
-    "overall_status": "success",
-    "artifact_count": 51,
-    "test_counts": {
-      "totals": {
-        "tests": 0,
-        "failed": 0,
-        "flaky": 0,
-        "skipped": 0,
-        "passed": 0,
-        "unique": 0
-      },
-      "by_suite_os": {}
-    }
-  },
-  {
     "date": "2026-09-10",
     "branch": "3006.x",
     "tag": "nightly-2026-09-10-3006.x",
@@ -19250,519 +19280,6 @@
           "flaky": 5,
           "skipped": 618,
           "passed": 1855
-        }
-      }
-    }
-  },
-  {
-    "date": "2026-09-10",
-    "branch": "3008.x",
-    "tag": "nightly-2026-09-10-3008.x",
-    "commit": "5710254e933ddcf2c17a8a6b64f8f8b1bbb77908",
-    "salt_version": "3008.2+508.g5710254e93",
-    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/34421908947",
-    "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/nightly-2026-09-10-3008.x",
-    "overall_status": "success",
-    "artifact_count": 51,
-    "test_counts": {
-      "totals": {
-        "tests": 237583,
-        "failed": 0,
-        "flaky": 34,
-        "skipped": 63942,
-        "passed": 237549,
-        "unique": 18504
-      },
-      "by_suite_os": {
-        "functional|amazonlinux-2": {
-          "tests": 2316,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1214,
-          "passed": 2316
-        },
-        "functional|amazonlinux-2023-arm64": {
-          "tests": 2335,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1195,
-          "passed": 2335
-        },
-        "functional|debian-11": {
-          "tests": 2636,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 894,
-          "passed": 2636
-        },
-        "functional|debian-12-arm64": {
-          "tests": 2369,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1161,
-          "passed": 2369
-        },
-        "functional|debian-13": {
-          "tests": 2354,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1176,
-          "passed": 2354
-        },
-        "functional|fedora-40": {
-          "tests": 2338,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1192,
-          "passed": 2338
-        },
-        "functional|macos-15": {
-          "tests": 90,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 51,
-          "passed": 90
-        },
-        "functional|macos-15-intel": {
-          "tests": 91,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 50,
-          "passed": 91
-        },
-        "functional|photonos-4": {
-          "tests": 1754,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1776,
-          "passed": 1754
-        },
-        "functional|photonos-4-arm64": {
-          "tests": 2317,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1213,
-          "passed": 2317
-        },
-        "functional|photonos-5": {
-          "tests": 2317,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1213,
-          "passed": 2317
-        },
-        "functional|photonos-5-arm64": {
-          "tests": 1754,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1776,
-          "passed": 1754
-        },
-        "functional|rockylinux-8-arm64": {
-          "tests": 2323,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1207,
-          "passed": 2323
-        },
-        "functional|rockylinux-9": {
-          "tests": 2340,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1190,
-          "passed": 2340
-        },
-        "functional|ubuntu-22.04-arm64": {
-          "tests": 2376,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1154,
-          "passed": 2376
-        },
-        "functional|ubuntu-24.04": {
-          "tests": 2357,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1173,
-          "passed": 2357
-        },
-        "functional|windows-2022": {
-          "tests": 1430,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 447,
-          "passed": 1429
-        },
-        "functional|windows-2025": {
-          "tests": 1430,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 447,
-          "passed": 1430
-        },
-        "integration|amazonlinux-2": {
-          "tests": 1254,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 945,
-          "passed": 1253
-        },
-        "integration|amazonlinux-2023-arm64": {
-          "tests": 1253,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 946,
-          "passed": 1253
-        },
-        "integration|debian-11": {
-          "tests": 1289,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 910,
-          "passed": 1289
-        },
-        "integration|debian-12-arm64": {
-          "tests": 1723,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 476,
-          "passed": 1722
-        },
-        "integration|debian-13": {
-          "tests": 1277,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 922,
-          "passed": 1277
-        },
-        "integration|fedora-40": {
-          "tests": 1253,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 946,
-          "passed": 1253
-        },
-        "integration|macos-15": {
-          "tests": 3,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 10,
-          "passed": 3
-        },
-        "integration|macos-15-intel": {
-          "tests": 3,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 10,
-          "passed": 3
-        },
-        "integration|photonos-4": {
-          "tests": 1651,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 548,
-          "passed": 1650
-        },
-        "integration|photonos-4-arm64": {
-          "tests": 1683,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 516,
-          "passed": 1682
-        },
-        "integration|photonos-5": {
-          "tests": 3372,
-          "failed": 0,
-          "flaky": 2,
-          "skipped": 1026,
-          "passed": 3370
-        },
-        "integration|photonos-5-arm64": {
-          "tests": 3304,
-          "failed": 0,
-          "flaky": 2,
-          "skipped": 1094,
-          "passed": 3302
-        },
-        "integration|rockylinux-8-arm64": {
-          "tests": 1257,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 942,
-          "passed": 1257
-        },
-        "integration|rockylinux-9": {
-          "tests": 2516,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 1882,
-          "passed": 2516
-        },
-        "integration|ubuntu-22.04-arm64": {
-          "tests": 3440,
-          "failed": 0,
-          "flaky": 2,
-          "skipped": 958,
-          "passed": 3438
-        },
-        "integration|ubuntu-24.04": {
-          "tests": 1255,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 944,
-          "passed": 1255
-        },
-        "integration|windows-2022": {
-          "tests": 452,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 737,
-          "passed": 452
-        },
-        "integration|windows-2025": {
-          "tests": 452,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 737,
-          "passed": 452
-        },
-        "scenarios|amazonlinux-2": {
-          "tests": 68,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 26,
-          "passed": 67
-        },
-        "scenarios|amazonlinux-2023-arm64": {
-          "tests": 68,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 26,
-          "passed": 67
-        },
-        "scenarios|debian-11": {
-          "tests": 68,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 26,
-          "passed": 67
-        },
-        "scenarios|debian-12-arm64": {
-          "tests": 68,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 26,
-          "passed": 67
-        },
-        "scenarios|debian-13": {
-          "tests": 68,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 26,
-          "passed": 67
-        },
-        "scenarios|fedora-40": {
-          "tests": 68,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 26,
-          "passed": 67
-        },
-        "scenarios|photonos-4": {
-          "tests": 65,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 29,
-          "passed": 64
-        },
-        "scenarios|photonos-4-arm64": {
-          "tests": 68,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 26,
-          "passed": 67
-        },
-        "scenarios|photonos-5": {
-          "tests": 136,
-          "failed": 0,
-          "flaky": 2,
-          "skipped": 52,
-          "passed": 134
-        },
-        "scenarios|photonos-5-arm64": {
-          "tests": 130,
-          "failed": 0,
-          "flaky": 2,
-          "skipped": 58,
-          "passed": 128
-        },
-        "scenarios|rockylinux-8-arm64": {
-          "tests": 68,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 26,
-          "passed": 67
-        },
-        "scenarios|rockylinux-9": {
-          "tests": 136,
-          "failed": 0,
-          "flaky": 2,
-          "skipped": 52,
-          "passed": 134
-        },
-        "scenarios|ubuntu-22.04-arm64": {
-          "tests": 136,
-          "failed": 0,
-          "flaky": 2,
-          "skipped": 52,
-          "passed": 134
-        },
-        "scenarios|ubuntu-24.04": {
-          "tests": 68,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 26,
-          "passed": 67
-        },
-        "scenarios|windows-2022": {
-          "tests": 4,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 16,
-          "passed": 3
-        },
-        "scenarios|windows-2025": {
-          "tests": 4,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 16,
-          "passed": 3
-        },
-        "unit|amazonlinux-2": {
-          "tests": 12085,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 2051,
-          "passed": 12084
-        },
-        "unit|amazonlinux-2023-arm64": {
-          "tests": 12098,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 2043,
-          "passed": 12098
-        },
-        "unit|debian-11": {
-          "tests": 12083,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 2053,
-          "passed": 12083
-        },
-        "unit|debian-12-arm64": {
-          "tests": 12094,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 2047,
-          "passed": 12094
-        },
-        "unit|debian-13": {
-          "tests": 12094,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 2047,
-          "passed": 12093
-        },
-        "unit|fedora-40": {
-          "tests": 12098,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 2043,
-          "passed": 12098
-        },
-        "unit|macos-15": {
-          "tests": 480,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 105,
-          "passed": 480
-        },
-        "unit|macos-15-intel": {
-          "tests": 480,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 105,
-          "passed": 480
-        },
-        "unit|photonos-4": {
-          "tests": 12022,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 2114,
-          "passed": 12022
-        },
-        "unit|photonos-4-arm64": {
-          "tests": 12086,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 2050,
-          "passed": 12086
-        },
-        "unit|photonos-5": {
-          "tests": 12095,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 2046,
-          "passed": 12095
-        },
-        "unit|photonos-5-arm64": {
-          "tests": 12031,
-          "failed": 0,
-          "flaky": 1,
-          "skipped": 2110,
-          "passed": 12030
-        },
-        "unit|rockylinux-8-arm64": {
-          "tests": 12086,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 2050,
-          "passed": 12086
-        },
-        "unit|rockylinux-9": {
-          "tests": 12098,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 2043,
-          "passed": 12098
-        },
-        "unit|ubuntu-22.04-arm64": {
-          "tests": 12097,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 2044,
-          "passed": 12097
-        },
-        "unit|ubuntu-24.04": {
-          "tests": 12097,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 2044,
-          "passed": 12097
-        },
-        "unit|windows-2022": {
-          "tests": 1936,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 680,
-          "passed": 1936
-        },
-        "unit|windows-2025": {
-          "tests": 1936,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 680,
-          "passed": 1936
         }
       }
     }
