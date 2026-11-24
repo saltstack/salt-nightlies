@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-11-24",
+    "branch": "3006.x",
+    "tag": "v3006.30+0.gd8f9357f9a",
+    "commit": "d8f9357f9a6cbb91c42f2244364f3a9e8e1ec000",
+    "salt_version": "3006.30+0.gd8f9357f9a",
+    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/45296499911",
+    "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/v3006.30+0.gd8f9357f9a",
+    "overall_status": "success",
+    "artifact_count": 4,
+    "test_counts": {
+      "totals": {
+        "tests": 0,
+        "failed": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "passed": 0,
+        "unique": 0
+      },
+      "by_suite_os": {}
+    }
+  },
+  {
     "date": "2026-11-23",
     "branch": "3006.x",
     "tag": "v3006.30+3.gd8f9357f9a",
