@@ -110,6 +110,141 @@
     }
   },
   {
+    "date": "2026-11-24",
+    "branch": "3007.x",
+    "tag": "v3007.17+0.g1e6d1a786d",
+    "commit": "1e6d1a786d3b96d3ab9d4b114f47d0e91bcd640e",
+    "salt_version": "3007.17+0.g1e6d1a786d",
+    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/45296501136",
+    "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/v3007.17+0.g1e6d1a786d",
+    "overall_status": "success",
+    "artifact_count": 33,
+    "test_counts": {
+      "totals": {
+        "tests": 25000,
+        "failed": 0,
+        "flaky": 20,
+        "skipped": 3501,
+        "passed": 24980,
+        "unique": 8554
+      },
+      "by_suite_os": {
+        "functional|amazonlinux-2": {
+          "tests": 185,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 592,
+          "passed": 185
+        },
+        "functional|photonos-4": {
+          "tests": 387,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 390,
+          "passed": 387
+        },
+        "integration|macos-15": {
+          "tests": 1,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 2,
+          "passed": 1
+        },
+        "integration|macos-15-intel": {
+          "tests": 2,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 2,
+          "passed": 2
+        },
+        "integration|photonos-5": {
+          "tests": 210,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 87,
+          "passed": 210
+        },
+        "integration|ubuntu-22.04-arm64": {
+          "tests": 139,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 158,
+          "passed": 139
+        },
+        "integration|ubuntu-26.04": {
+          "tests": 173,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 124,
+          "passed": 173
+        },
+        "scenarios|windows-2025": {
+          "tests": 3,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 15,
+          "passed": 3
+        },
+        "unit|amazonlinux-2023-arm64": {
+          "tests": 4112,
+          "failed": 0,
+          "flaky": 4,
+          "skipped": 184,
+          "passed": 4108
+        },
+        "unit|debian-11": {
+          "tests": 3420,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 875,
+          "passed": 3420
+        },
+        "unit|fedora-43": {
+          "tests": 4112,
+          "failed": 0,
+          "flaky": 4,
+          "skipped": 184,
+          "passed": 4108
+        },
+        "unit|macos-15": {
+          "tests": 76,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 53,
+          "passed": 76
+        },
+        "unit|macos-15-intel": {
+          "tests": 121,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 8,
+          "passed": 121
+        },
+        "unit|photonos-4-arm64": {
+          "tests": 3973,
+          "failed": 0,
+          "flaky": 4,
+          "skipped": 322,
+          "passed": 3969
+        },
+        "unit|rockylinux-8-arm64": {
+          "tests": 3973,
+          "failed": 0,
+          "flaky": 4,
+          "skipped": 322,
+          "passed": 3969
+        },
+        "unit|ubuntu-26.04": {
+          "tests": 4113,
+          "failed": 0,
+          "flaky": 4,
+          "skipped": 183,
+          "passed": 4109
+        }
+      }
+    }
+  },
+  {
     "date": "2026-11-23",
     "branch": "3006.x",
     "tag": "v3006.30+3.gd8f9357f9a",
@@ -141,6 +276,28 @@
     "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/v3008.5+316.g8bb50ec28a",
     "overall_status": "success",
     "artifact_count": 12,
+    "test_counts": {
+      "totals": {
+        "tests": 0,
+        "failed": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "passed": 0,
+        "unique": 0
+      },
+      "by_suite_os": {}
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "branch": "master",
+    "tag": "v3009.0+0na.c955ae493c",
+    "commit": "c955ae493ce33bca359e37248a993e2c38371a63",
+    "salt_version": "3009.0+0na.c955ae493c",
+    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/45088658837",
+    "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/v3009.0+0na.c955ae493c",
+    "overall_status": "success",
+    "artifact_count": 10,
     "test_counts": {
       "totals": {
         "tests": 0,
@@ -272,28 +429,6 @@
           "passed": 360
         }
       }
-    }
-  },
-  {
-    "date": "2026-11-23",
-    "branch": "master",
-    "tag": "v3009.0+0na.c955ae493c",
-    "commit": "c955ae493ce33bca359e37248a993e2c38371a63",
-    "salt_version": "3009.0+0na.c955ae493c",
-    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/45088658837",
-    "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/v3009.0+0na.c955ae493c",
-    "overall_status": "success",
-    "artifact_count": 10,
-    "test_counts": {
-      "totals": {
-        "tests": 0,
-        "failed": 0,
-        "flaky": 0,
-        "skipped": 0,
-        "passed": 0,
-        "unique": 0
-      },
-      "by_suite_os": {}
     }
   },
   {
@@ -542,6 +677,28 @@
   },
   {
     "date": "2026-11-12",
+    "branch": "master",
+    "tag": "v3009.0+0na.390d168fac",
+    "commit": "390d168fac169bc3b53750815b63682b913e486d",
+    "salt_version": "3009.0+0na.390d168fac",
+    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/43130467038",
+    "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/v3009.0+0na.390d168fac",
+    "overall_status": "success",
+    "artifact_count": 14,
+    "test_counts": {
+      "totals": {
+        "tests": 0,
+        "failed": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "passed": 0,
+        "unique": 0
+      },
+      "by_suite_os": {}
+    }
+  },
+  {
+    "date": "2026-11-12",
     "branch": "3007.x",
     "tag": "v3007.17+0.g255e983457",
     "commit": "255e983457273613db9e1209f2fcb002a32fbe7a",
@@ -617,28 +774,6 @@
           "passed": 987
         }
       }
-    }
-  },
-  {
-    "date": "2026-11-12",
-    "branch": "master",
-    "tag": "v3009.0+0na.390d168fac",
-    "commit": "390d168fac169bc3b53750815b63682b913e486d",
-    "salt_version": "3009.0+0na.390d168fac",
-    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/43130467038",
-    "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/v3009.0+0na.390d168fac",
-    "overall_status": "success",
-    "artifact_count": 14,
-    "test_counts": {
-      "totals": {
-        "tests": 0,
-        "failed": 0,
-        "flaky": 0,
-        "skipped": 0,
-        "passed": 0,
-        "unique": 0
-      },
-      "by_suite_os": {}
     }
   },
   {
@@ -1856,106 +1991,6 @@
   },
   {
     "date": "2026-11-07",
-    "branch": "3007.x",
-    "tag": "v3007.17+0.gcc70c47c86",
-    "commit": "cc70c47c860259d93a16f3fb7c00eafdbc0ef6a3",
-    "salt_version": "3007.17+0.gcc70c47c86",
-    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/42142883157",
-    "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/v3007.17+0.gcc70c47c86",
-    "overall_status": "success",
-    "artifact_count": 55,
-    "test_counts": {
-      "totals": {
-        "tests": 2525,
-        "failed": 0,
-        "flaky": 0,
-        "skipped": 1919,
-        "passed": 2525,
-        "unique": 1695
-      },
-      "by_suite_os": {
-        "functional|macos-15": {
-          "tests": 49,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 19,
-          "passed": 49
-        },
-        "functional|macos-15-intel": {
-          "tests": 20,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 14,
-          "passed": 20
-        },
-        "functional|windows-2022": {
-          "tests": 737,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 208,
-          "passed": 737
-        },
-        "functional|windows-2025": {
-          "tests": 318,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 155,
-          "passed": 318
-        },
-        "integration|macos-15": {
-          "tests": 5,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 10,
-          "passed": 5
-        },
-        "integration|windows-2022": {
-          "tests": 34,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 294,
-          "passed": 34
-        },
-        "integration|windows-2025": {
-          "tests": 34,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 294,
-          "passed": 34
-        },
-        "unit|macos-15": {
-          "tests": 118,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 11,
-          "passed": 118
-        },
-        "unit|macos-15-intel": {
-          "tests": 118,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 11,
-          "passed": 118
-        },
-        "unit|windows-2022": {
-          "tests": 732,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 598,
-          "passed": 732
-        },
-        "unit|windows-2025": {
-          "tests": 360,
-          "failed": 0,
-          "flaky": 0,
-          "skipped": 305,
-          "passed": 360
-        }
-      }
-    }
-  },
-  {
-    "date": "2026-11-07",
     "branch": "master",
     "tag": "v3009.0+0na.c9a4996a07",
     "commit": "c9a4996a0726b5c45f120ee2ec988d7418d9344c",
@@ -3032,6 +3067,106 @@
           "flaky": 0,
           "skipped": 732,
           "passed": 2085
+        }
+      }
+    }
+  },
+  {
+    "date": "2026-11-07",
+    "branch": "3007.x",
+    "tag": "v3007.17+0.gcc70c47c86",
+    "commit": "cc70c47c860259d93a16f3fb7c00eafdbc0ef6a3",
+    "salt_version": "3007.17+0.gcc70c47c86",
+    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/42142883157",
+    "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/v3007.17+0.gcc70c47c86",
+    "overall_status": "success",
+    "artifact_count": 55,
+    "test_counts": {
+      "totals": {
+        "tests": 2525,
+        "failed": 0,
+        "flaky": 0,
+        "skipped": 1919,
+        "passed": 2525,
+        "unique": 1695
+      },
+      "by_suite_os": {
+        "functional|macos-15": {
+          "tests": 49,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 19,
+          "passed": 49
+        },
+        "functional|macos-15-intel": {
+          "tests": 20,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 14,
+          "passed": 20
+        },
+        "functional|windows-2022": {
+          "tests": 737,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 208,
+          "passed": 737
+        },
+        "functional|windows-2025": {
+          "tests": 318,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 155,
+          "passed": 318
+        },
+        "integration|macos-15": {
+          "tests": 5,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 10,
+          "passed": 5
+        },
+        "integration|windows-2022": {
+          "tests": 34,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 294,
+          "passed": 34
+        },
+        "integration|windows-2025": {
+          "tests": 34,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 294,
+          "passed": 34
+        },
+        "unit|macos-15": {
+          "tests": 118,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 11,
+          "passed": 118
+        },
+        "unit|macos-15-intel": {
+          "tests": 118,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 11,
+          "passed": 118
+        },
+        "unit|windows-2022": {
+          "tests": 732,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 598,
+          "passed": 732
+        },
+        "unit|windows-2025": {
+          "tests": 360,
+          "failed": 0,
+          "flaky": 0,
+          "skipped": 305,
+          "passed": 360
         }
       }
     }
@@ -4661,6 +4796,28 @@
   },
   {
     "date": "2026-11-05",
+    "branch": "master",
+    "tag": "v3009.0+0na.4840c2beed",
+    "commit": "4840c2beedf97185289ca7bfe0b98582f8119a07",
+    "salt_version": "3009.0+0na.4840c2beed",
+    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/41941489171",
+    "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/v3009.0+0na.4840c2beed",
+    "overall_status": "success",
+    "artifact_count": 6,
+    "test_counts": {
+      "totals": {
+        "tests": 0,
+        "failed": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "passed": 0,
+        "unique": 0
+      },
+      "by_suite_os": {}
+    }
+  },
+  {
+    "date": "2026-11-05",
     "branch": "3007.x",
     "tag": "v3007.17+7.gcc70c47c86",
     "commit": "cc70c47c860259d93a16f3fb7c00eafdbc0ef6a3",
@@ -4750,28 +4907,6 @@
           "passed": 360
         }
       }
-    }
-  },
-  {
-    "date": "2026-11-05",
-    "branch": "master",
-    "tag": "v3009.0+0na.4840c2beed",
-    "commit": "4840c2beedf97185289ca7bfe0b98582f8119a07",
-    "salt_version": "3009.0+0na.4840c2beed",
-    "nightly_run_url": "https://github.com/saltstack/salt-nightlies/actions/runs/41941489171",
-    "release_url": "https://github.com/saltstack/salt-nightlies/releases/tag/v3009.0+0na.4840c2beed",
-    "overall_status": "success",
-    "artifact_count": 6,
-    "test_counts": {
-      "totals": {
-        "tests": 0,
-        "failed": 0,
-        "flaky": 0,
-        "skipped": 0,
-        "passed": 0,
-        "unique": 0
-      },
-      "by_suite_os": {}
     }
   },
   {
